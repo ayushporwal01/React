@@ -6,7 +6,6 @@ const parent = React.createElement("div", {id: "parent"},
             React.createElement("h2", {}, "I'm an h2 tag")
     
         ])
-    )
-);
+    );
 
 root.render(parent)
