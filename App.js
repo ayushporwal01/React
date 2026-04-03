@@ -1,6 +1,4 @@
-const heading = React.createElement("h1", {id: "heading", xyz: "abc"}, "Hello World From React!");
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
 
 const app = React.createElement("div", {}, [ 
     React.createElement("h1", {id: "heading"}, "Hello World From React!"),
@@ -11,4 +9,4 @@ const app = React.createElement("div", {}, [
     )
 ]);
 
-root.render(parent)
+root.render(app)
