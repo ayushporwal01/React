@@ -10,4 +10,4 @@ const parent = React.createElement("div",
     )
 )
 
-c
+root.render(parent)
