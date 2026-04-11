@@ -9,7 +9,7 @@ export default function Fruits() {
 
   return <div>
     <ul>
-      {fruits}
+      {fruits.map(fruit => <li key={fruit.name}>{fruit.name}</li>)}
     </ul>
   </div>;
 }
