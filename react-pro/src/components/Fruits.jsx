@@ -5,5 +5,3 @@ function Fruits() {
   </div>
   );
 }
-
-export default Hello;
