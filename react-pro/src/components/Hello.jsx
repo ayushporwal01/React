@@ -3,7 +3,7 @@ function Hello(props) {
   return (
   <div>
     <h1>
-      {props.message} {props.name}
+      {message} {name}
     </h1>
   </div>
   );
