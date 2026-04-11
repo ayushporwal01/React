@@ -1,5 +1,4 @@
-function Hello(props) {
-  const {name, message} = props;
+function Hello({name, message}) {
   return (
   <div>
     <h1>
