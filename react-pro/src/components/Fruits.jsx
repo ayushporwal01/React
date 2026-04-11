@@ -7,9 +7,13 @@ export default function Fruits() {
     { name: "Pineapple", price: 8, emoji: "🍍" },
   ];
 
-  return <div>
-    <ul>
-      {fruits.map(fruit => <li key={fruit.name}>{fruit.name}</li>)}
-    </ul>
-  </div>;
+  return (
+    <div>
+      <ul>
+        {fruits.map((fruit) => (
+          <li key={fruit.name}>{fruit.name}{fruit.emoji}</li>
+        ))}
+      </ul>
+    </div>
+  );
 }
