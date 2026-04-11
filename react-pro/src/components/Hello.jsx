@@ -1,8 +1,8 @@
-function Hello({name, message}) {
+function Hello({name, message, emoji}) {
   return (
   <div>
     <h1>
-      {message} {name}
+      {message} {emoji} {name}
     </h1>
   </div>
   );
