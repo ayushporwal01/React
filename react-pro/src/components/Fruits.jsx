@@ -1,7 +1,7 @@
 export default function Fruits() {
+  
+  
   return (
-  <div>
-    
-  </div>
+  <div></div>
   );
 }
