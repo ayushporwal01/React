@@ -7,5 +7,9 @@ export default function Fruits() {
     { name: "Pineapple", price: 8, emoji: "🍍" },
   ];
 
-  return <div></div>;
+  return <div>
+    <ul>
+      
+    </ul>
+  </div>;
 }
