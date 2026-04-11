@@ -1,5 +1,5 @@
 export default function Fruits() {
-  const Fruits = [
+  const fruits = [
     { name: "Apple", price: 10, emoji: "🍎" },
     { name: "Mango", price: 7, emoji: "🥭" },
     { name: "Orange", price: 5, emoji: "🍊" },
@@ -9,7 +9,7 @@ export default function Fruits() {
 
   return <div>
     <ul>
-      
+      {fruits}
     </ul>
   </div>;
 }
