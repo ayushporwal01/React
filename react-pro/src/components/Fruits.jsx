@@ -18,6 +18,7 @@ export default function Fruits() {
             name={fruit.name}
             price={fruit.price}
             emoji={fruit.emoji}
+            soldout={fruit.soldout}
           />
         ))}
       </ul>
