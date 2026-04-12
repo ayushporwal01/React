@@ -1,3 +1,3 @@
-export default function Fruit() {
+export default function Fruit({name, price, emoji}) {
     
 }
