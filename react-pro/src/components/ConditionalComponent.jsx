@@ -8,4 +8,6 @@ export default function ConditionalComponent() {
   else {
     message = <h1>This is message 2</h1>
   }
+
+  return message
 }
