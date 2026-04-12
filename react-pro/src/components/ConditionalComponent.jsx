@@ -3,11 +3,10 @@ export default function ConditionalComponent() {
   const display = true;
 
   if (display) {
-    message = <h1>This is message 1</h1>
-  }
-  else {
-    message = <h1>This is message 2</h1>
+    message = <h1>This is message 1</h1>;
+  } else {
+    message = <h1>This is message 2</h1>;
   }
 
-  return message
+  return message;
 }
