@@ -3,7 +3,7 @@ import ConditionalComponent from "./ConditionalComponent"
 function App() {
   return (
     <div className="App">
-      <CodeComponent />
+      <ConditionalComponent />
     </div>
   )
 }
