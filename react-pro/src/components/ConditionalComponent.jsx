@@ -1,4 +1,4 @@
 export default function ConditionalComponent() {
-  const display = false;
+  const display = true;
   return display ? <Welcome/> : <Code/>;
 }
