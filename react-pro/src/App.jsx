@@ -1,9 +1,9 @@
-import Fruits from './components/Fruits';
+import ConditionalComponent from "./ConditionalComponent"
 
 function App() {
   return (
     <div className="App">
-      <Fruits />
+      <CodeComponent />
     </div>
   )
 }
