@@ -10,6 +10,11 @@ export default function Form() {
           type="text"
           value={name.firstName}
         />
+        <input
+          onChange={(e) => setName({lastName: e.target.value})}
+          type="text"
+          value={name.lastName}
+        />
       </form>
     </div>
   );
