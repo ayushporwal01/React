@@ -1,1 +1,3 @@
-export default function funcName() {}
+export default function Form() {
+    
+}
