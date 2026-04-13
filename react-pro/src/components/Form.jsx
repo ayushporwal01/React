@@ -4,7 +4,6 @@ export default function Form() {
   const [name, setName] = useState({firstName: "", lastName: ""});
   return (
     <div>
-        {name.firstName} - {name.lastName}
       <form>
         <input
           onChange={(e) => setName({...name, firstName: e.target.value})}
