@@ -20,5 +20,9 @@ export default function Counter() {
     <h1>count is: {count}</h1>
     <button onClick={increment}>Increment</button>
     <button onClick={decrement}>Decrement</button>
+    
+    <h1>count is: {count}</h1>
+    <button onClick={increment}>Increment</button>
+    <button onClick={decrement}>Decrement</button>
   </div>;
 }
