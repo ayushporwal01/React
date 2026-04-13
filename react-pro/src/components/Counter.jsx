@@ -5,10 +5,10 @@ export default function Counter() {
   const [incrementBy, setIncrementBy] = useState(1);
 
   function increment() {
-    setCount(count + increaseIncrement);
+    setCount(count + incrementBy);
   }
   function decrement() {
-    setCount(count - decreaseIncrement);
+    setCount(count - incrementBy);
   }
   function increaseIncrement() {
     setCount(count + 1);
