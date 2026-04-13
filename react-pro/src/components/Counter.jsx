@@ -5,8 +5,12 @@ export default function Counter() {
   function increment() {
     setCount(count + 1);
   }
+  function decrement() {
+    setCount(count - 1);
+  }
   return <div>
     <h1>count is:</h1>
     <button onClick={increment}>Increment</button>
+    <button onClick={decrement}>Decrement</button>
   </div>;
 }
