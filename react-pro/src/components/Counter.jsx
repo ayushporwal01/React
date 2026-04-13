@@ -11,10 +11,10 @@ export default function Counter() {
     setCount(count - incrementBy);
   }
   function increaseIncrement() {
-    setIncrementBy(count + 1);
+    setIncrementBy(incrementBy + 1);
   }
   function decreaseIncrement() {
-    setIncrementBy(count - 1);
+    setIncrementBy(incrementBy - 1);
   }
   return <div>
     <h1>count is: {count}</h1>
