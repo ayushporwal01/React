@@ -3,17 +3,17 @@ import { useState } from "react";
 export default function Counter() {
   const [count, setCount] = useState(0);
   const [incrementBy, setIncrementBy] = useState(1);
-  
+
   function increment() {
     setCount(count + 1);
   }
   function decrement() {
     setCount(count - 1);
   }
-  function increment() {
+  function increaseIncrement() {
     setCount(count + 1);
   }
-  function decrement() {
+  function decreaseIncrement() {
     setCount(count - 1);
   }
   return <div>
