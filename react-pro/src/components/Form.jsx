@@ -5,7 +5,11 @@ export default function Form() {
   return (
     <div>
       <form>
-        <input type="text" onChange={(e) => e.target.value} value={name} />
+        <input
+          type="text"
+          onChange={(e) => setName(e.target.value)}
+          value={name}
+        />
       </form>
     </div>
   );
