@@ -1,1 +1,3 @@
-export default function Message() {}
+export default function Message() {
+    
+}
