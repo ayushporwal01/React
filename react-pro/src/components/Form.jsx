@@ -15,7 +15,7 @@ export default function Form() {
           type="text"
           value={name.lastName}
         />
-        <button>Submit</button>
+        <button onClick={}>Submit</button>
       </form>
     </div>
   );
