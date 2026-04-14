@@ -20,6 +20,7 @@ export default function Form() {
           type="text"
           value={name.lastName}
         />
+        <br/>
         <button onClick={handleSubmit}>Submit</button>
       </form>
     </div>
