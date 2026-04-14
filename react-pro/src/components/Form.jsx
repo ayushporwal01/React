@@ -15,7 +15,7 @@ export default function Form() {
           type="text"
           value={name.lastName}
         />
-        <button onClick={}>Submit</button>
+        <button onClick={(e) => e.preventDefault()}>Submit</button>
       </form>
     </div>
   );
