@@ -1,5 +1,5 @@
-export default function TodoItem(item) {
+export default function TodoItem({item}) {
   return <li>
-    {item.text}
+    {item}
   </li>;
 }
