@@ -1,3 +1,5 @@
-export default function TodoItems() {
-    
+export default function TodoItem(item) {
+  return <li>
+    {item}
+  </li>;
 }
