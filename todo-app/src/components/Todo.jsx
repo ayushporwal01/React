@@ -4,7 +4,7 @@ export default function Todo() {
   const [Todo, setTodo] = useState("");
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           onChange={(e) => setTodo(e.target.value)}
           type="text"
