@@ -5,7 +5,7 @@ export default function Todo() {
   return (
     <div>
       <form>
-        <input type="text"/>
+        <input type="text" value={Todo} />
         <button type="submit">Add</button>
       </form>
     </div>
