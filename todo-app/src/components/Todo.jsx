@@ -20,7 +20,7 @@ export default function Todo() {
       </form>
       
       <ul>
-        {Todos.map(item => <TodoItem/>)}
+        {Todos.map(item => <TodoItem item={item} />)}
       </ul>
     </div>
   );
