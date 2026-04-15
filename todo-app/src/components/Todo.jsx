@@ -5,7 +5,7 @@ export default function Todo() {
   const [Todos, setTodos] = useState([]);
   function handleSubmit(e) {
     e.preventDefault();
-    setTodos([...Todos,Todo]);
+    setTodos([...Todos, Todo]);
     setTodo("");
   }
   return (
@@ -18,9 +18,11 @@ export default function Todo() {
         />
         <button type="submit">Add</button>
       </form>
-      
+
       <ul>
-        {Todos.map(item => <TodoItem item={item} />)}
+        {Todos.map((item) => (
+          <TodoItem item={item} />
+        ))}
       </ul>
     </div>
   );
