@@ -21,8 +21,8 @@ export default function Todo() {
       </form>
 
       <ul>
-        {Todos.map((item) => (
-          <TodoItem key={item} item={item} />
+        {Todos.map((item, index) => (
+          <TodoItem key={index} item={item} />
         ))}
       </ul>
     </div>
