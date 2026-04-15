@@ -5,7 +5,7 @@ export default function Todo() {
   const [Todos, setTodos] = useState([]);
   function handleSubmit(e) {
     e.preventDefault();
-    setTodo([Todos]);
+    setTodos([Todo]);
     setTodo("");
   }
   return (
