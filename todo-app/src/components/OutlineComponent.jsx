@@ -1,3 +1,5 @@
+import styles from "./InlineComponent.module.css";
+
 export default function InlineComponent() {
   return (
     <div>
