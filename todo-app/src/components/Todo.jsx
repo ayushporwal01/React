@@ -18,7 +18,6 @@ export default function Todo() {
         />
         <button type="submit">Add</button>
       </form>
-      {console.log(Todos)}
     </div>
   );
 }
