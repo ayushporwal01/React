@@ -2,6 +2,9 @@ import { useState } from "react";
 
 export default function Todo() {
   const [Todo, setTodo] = useState("");
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
   return (
     <div>
       <form onSubmit={handleSubmit}>
