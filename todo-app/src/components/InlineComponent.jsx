@@ -1,5 +1,5 @@
-const header = { color: "red", fontSize: "140px" };
+import '../css/style.css'
 
 export default function InlineComponent() {
-  return <h1 style={header}>Inline Component</h1>;
+  return <h1 className="header">Inline Component</h1>;
 }
