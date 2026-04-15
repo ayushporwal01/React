@@ -22,7 +22,7 @@ export default function Todo() {
 
       <ul>
         {Todos.map((item) => (
-          <TodoItem item={item.text} />
+          <TodoItem item={item} />
         ))}
       </ul>
     </div>
