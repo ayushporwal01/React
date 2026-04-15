@@ -1,9 +1,9 @@
-import styles from "./InlineComponent.module.css";
+import styles from "./OutlineComponent.module.css";
 
-export default function InlineComponent() {
+export default function OutlineComponent() {
   return (
     <div>
-      <h1 className={styles.header}>Inline Component</h1>;
+      <h1 className={styles.header}>Outline Component</h1>;
     </div>
   );
 }
