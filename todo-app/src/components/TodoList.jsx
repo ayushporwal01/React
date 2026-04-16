@@ -1,4 +1,6 @@
-export default function TodoList({Todos}) {
+import TodoItem from "./TodoItem";
+
+export default function TodoList({ Todos }) {
   return (
     <div>
       <ul>
