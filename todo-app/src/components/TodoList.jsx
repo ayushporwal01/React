@@ -1,10 +1,10 @@
 import TodoItem from "./TodoItem";
 
-export default function TodoList({ Todos }) {
+export default function TodoList({ todos }) {
   return (
     <div>
       <ul>
-        {Todos.map((item, index) => (
+        {todos.map((item, index) => (
           <TodoItem key={index} item={item} />
         ))}
       </ul>
