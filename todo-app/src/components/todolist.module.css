@@ -4,10 +4,16 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 30px;
 }
 
 .line {
    border: 1px solid rgba(203, 203, 203, 0.359);
+}
+
+.noTasks {
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.501);
 }

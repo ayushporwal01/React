@@ -4,12 +4,16 @@ import styles from "./todoList.module.css";
 export default function TodoList({ todos }) {
   return (
     <ul className={styles.list}>
-      {todos.map((item, index) => (
-        <>
-          <TodoItem key={index} item={item} />
-          <hr className={styles.line} />
-        </>
-      ))}
+      {todos.length == 0 ? (
+        <h1 className={styles.noTasks}>No tasks added yet.</h1>
+      ) : (
+        todos.map((item, index) => (
+          <>
+            <TodoItem key={index} item={item} />
+            <hr className={styles.line} />
+          </>
+        ))
+      )}
     </ul>
   );
 }
