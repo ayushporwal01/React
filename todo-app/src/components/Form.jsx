@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Form() {
+export default function Form({setTodos}) {
   const [Todo, setTodo] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
