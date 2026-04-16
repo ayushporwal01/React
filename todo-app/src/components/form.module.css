@@ -11,15 +11,16 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 10px;
 }
 
 .todoInput {
     padding: 6px;
-    height: 15px;
+    height: 20px;
     width: 100%;
-    font-size: large;
+    font-size: 1.6rem;
     border: none;
 }
 

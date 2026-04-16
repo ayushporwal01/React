@@ -15,6 +15,7 @@ export default function Form({ todos, setTodos }) {
           className={styles.todoInput}
           onChange={(e) => setTodo(e.target.value)}
           type="text"
+          placeholder="Enter a Task..."
           value={todo}
         />
         <button className={styles.addBtn} type="submit">Add</button>
