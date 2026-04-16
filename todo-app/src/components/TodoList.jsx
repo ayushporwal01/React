@@ -1,7 +1,7 @@
 import TodoItem from "./TodoItem";
 import styles from "./todoList.module.css";
 
-export default function TodoList({ todos }) {
+export default function TodoList({ todos, setTodos }) {
   return (
     <ul className={styles.list}>
       {todos.length == 0 ? (
@@ -9,7 +9,7 @@ export default function TodoList({ todos }) {
       ) : (
         todos.map((item, index) => (
           <>
-            <TodoItem key={index} item={item} />
+            <TodoItem key={index} item={item} todos={todos} setTodos={setTodos} />
             <hr className={styles.line} />
           </>
         ))
