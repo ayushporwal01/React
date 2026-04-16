@@ -9,7 +9,7 @@ export default function Form({ todos, setTodos }) {
     setTodo("");
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.todoForm}>
       <input
         onChange={(e) => setTodo(e.target.value)}
         type="text"
