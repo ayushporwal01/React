@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-export default function Form({Todos, setTodos}) {
-  const [Todo, setTodo] = useState("");
+export default function Form({todos, setTodos}) {
+  const [todo, setTodo] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
-    setTodos([...Todos, Todo]);
+    setTodos([...todos, todo]);
     setTodo("");
   }
   return (
@@ -12,7 +12,7 @@ export default function Form({Todos, setTodos}) {
       <input
         onChange={(e) => setTodo(e.target.value)}
         type="text"
-        value={Todo}
+        value={todo}
       />
       <button type="submit">Add</button>
     </form>
