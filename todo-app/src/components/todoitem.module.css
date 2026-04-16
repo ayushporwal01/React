@@ -1,6 +1,28 @@
 .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
     font-size: 1.8rem;
     padding: 13px;
     border-radius: 5px;
+}
+
+.deleteBtn {
+    padding: 8px 20px;
+    height: 45px;
+    width: 50px;
+    background-color: rgb(255, 221, 0);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(235, 3, 3);
 }

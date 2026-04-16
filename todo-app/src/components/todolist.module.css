@@ -17,10 +17,3 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.501);
 }
-
-.deleteBtn {
-    padding: 10px;
-    background-color: red;
-    color: white;
-    border-radius: 8px;
-}
