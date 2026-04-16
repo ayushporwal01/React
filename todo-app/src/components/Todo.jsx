@@ -9,7 +9,7 @@ export default function Todo() {
  
   return (
     <div>
-      <Form/>
+      <Form todo={Todo} todos={Todos} />
       <TodoList/>
     </div>
   );
