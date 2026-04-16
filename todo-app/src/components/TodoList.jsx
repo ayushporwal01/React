@@ -10,6 +10,9 @@ export default function TodoList({ todos }) {
         todos.map((item, index) => (
           <>
             <TodoItem key={index} item={item} />
+            <span>
+              <button className={styles.deleteBtn}>X</button>
+            </span>
             <hr className={styles.line} />
           </>
         ))
