@@ -6,7 +6,10 @@ export default function TodoList({ todos }) {
     <div className={styles.list}>
       <ul>
         {todos.map((item, index) => (
-          <TodoItem key={index} item={item} />
+          <>
+            <TodoItem key={index} item={item} />
+            <hr className={styles.line} />
+          </>
         ))}
       </ul>
     </div>

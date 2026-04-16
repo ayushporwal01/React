@@ -7,3 +7,7 @@
     padding: 1rem;
     margin-top: 30px;
 }
+
+.line {
+   border: 1px solid rgba(203, 203, 203, 0.359);
+}
