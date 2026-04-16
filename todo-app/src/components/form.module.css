@@ -21,6 +21,10 @@
     font-size: medium;
 }
 
+.todoInput:focus {
+    outline: none;
+}
+
 .addBtn {
     padding: 4px 10px;
     font-size: 1rem;
