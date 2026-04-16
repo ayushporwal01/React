@@ -10,8 +10,9 @@ export default function Form({ todos, setTodos }) {
   }
   return (
     <div className={styles.formContainer}>
-      <form onSubmit={handleSubmit} className={styles.todoForm}>
+      <form className={styles.todoForm} onSubmit={handleSubmit}>
         <input
+        className={styles.todoInput}
           onChange={(e) => setTodo(e.target.value)}
           type="text"
           value={todo}
