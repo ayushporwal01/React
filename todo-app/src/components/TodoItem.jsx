@@ -1,5 +1,5 @@
-export default function TodoItem({item}) {
-  return <li>
-    {item}
-  </li>;
+import styles from "./todoitem.module.css";
+
+export default function TodoItem({ item }) {
+  return <li className={styles.item}>{item}</li>;
 }
