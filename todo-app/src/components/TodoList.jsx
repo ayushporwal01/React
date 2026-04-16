@@ -1,5 +1,5 @@
 import TodoItem from "./TodoItem";
-import "./todolist.module.css";
+import styles from "./todolist.module.css";
 
 export default function TodoList({ todos }) {
   return (
