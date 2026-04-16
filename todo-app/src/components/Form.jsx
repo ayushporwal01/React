@@ -12,12 +12,12 @@ export default function Form({ todos, setTodos }) {
     <div className={styles.formContainer}>
       <form className={styles.todoForm} onSubmit={handleSubmit}>
         <input
-        className={styles.todoInput}
+          className={styles.todoInput}
           onChange={(e) => setTodo(e.target.value)}
           type="text"
           value={todo}
         />
-        <button type="submit">Add</button>
+        <button className={styles.addBtn} type="submit">Add</button>
       </form>
     </div>
   );
