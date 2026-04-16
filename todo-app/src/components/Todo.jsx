@@ -11,15 +11,6 @@ export default function Todo() {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          onChange={(e) => setTodo(e.target.value)}
-          type="text"
-          value={Todo}
-        />
-        <button type="submit">Add</button>
-      </form>
-
       <ul>
         {Todos.map((item, index) => (
           <TodoItem key={index} item={item} />
