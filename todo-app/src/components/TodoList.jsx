@@ -1,4 +1,4 @@
-export default function TodoList() {
+export default function TodoList({Todos}) {
   return (
     <div>
       <ul>
