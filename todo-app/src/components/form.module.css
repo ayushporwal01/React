@@ -22,8 +22,9 @@
 }
 
 .addBtn {
-    padding: 10px 5px;
+    padding: 4px 10px;
     font-size: 1rem;
     background-color: rgb(241, 183, 255);
+    border: 1px solid black;
 }
 
