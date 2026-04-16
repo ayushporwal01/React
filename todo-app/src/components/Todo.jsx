@@ -7,11 +7,7 @@ export default function Todo() {
  
   return (
     <div>
-      <ul>
-        {Todos.map((item, index) => (
-          <TodoItem key={index} item={item} />
-        ))}
-      </ul>
+     
     </div>
   );
 }
