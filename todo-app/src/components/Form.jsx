@@ -5,6 +5,7 @@ export default function Form({ todos, setTodos }) {
   const [todo, setTodo] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
+    if (!todo.trim()) return;
     setTodos([...todos, todo]);
     setTodo("");
   }
@@ -18,7 +19,9 @@ export default function Form({ todos, setTodos }) {
           placeholder="Enter a Task..."
           value={todo}
         />
-        <button className={styles.addBtn} type="submit">Add</button>
+        <button className={styles.addBtn} type="submit">
+          Add
+        </button>
       </form>
     </div>
   );
