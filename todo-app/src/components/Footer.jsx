@@ -1,5 +1,7 @@
-import styles from "./header.module.css";
+import styles from "./footer.module.css";
 
-export default function Header() {
-  return <div className={styles.header}>My Todo List</div>;
+export default function Footer({ completedTodos }) {
+  return (
+    <span className={styles.footer}>Completed Todos: {CompletedTodos}</span>
+  );
 }
