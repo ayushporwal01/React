@@ -6,11 +6,10 @@ export default function TodoItem({ item, todos, setTodos }) {
   }
 
   function completeTask(name) {
-    setTodos(
-      todos.map((todo) =>
-        todo.name === name ? { ...todo, done: !todo.done } : todo,
-      ),
+    const newArray = todos.map((todo) =>
+      todo.name === name ? { ...todo, done: !todo.done } : todo,
     );
+    setTodos(newArray);
   }
   return (
     <div className={styles.item}>
