@@ -5,7 +5,7 @@ export default function Form({ todos, setTodos }) {
   const [todo, setTodo] = useState({name: "", completed: false});
   function handleSubmit(e) {
     e.preventDefault();
-    if (!todo.trim()) return;
+    if (!todo.name.trim()) return;
     setTodos([...todos, todo]);
     setTodo({name: "", completed: false});
   }
