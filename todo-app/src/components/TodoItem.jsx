@@ -11,9 +11,11 @@ export default function TodoItem({ item, todos, setTodos }) {
     );
     setTodos(newArray);
   }
+  
+  const markCompleted = item.done ? styles.completed : "" 
   return (
     <div className={styles.item}>
-      <li onClick={(e) => completeTask(item.name)}>{item.name}</li>
+      <li className={styles.markCompleted} onClick={(e) => completeTask(item.name)}>{item.name}</li>
       <button onClick={(e) => deleteTask(item)} className={styles.deleteBtn}>
         x
       </button>
