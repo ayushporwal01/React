@@ -11,15 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 20rem;
 }
 
-.completedTodos {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
+.completedTodos,
 .totalTodos {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
 }
