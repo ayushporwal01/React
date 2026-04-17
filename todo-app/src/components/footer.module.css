@@ -1,4 +1,6 @@
 .footer {
+    position: fixed;
+    bottom: 0;
     background-color: rgb(255, 217, 0);
     font-size: 2rem;
     font-weight: bold;

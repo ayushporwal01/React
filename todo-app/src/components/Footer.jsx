@@ -2,6 +2,8 @@ import styles from "./footer.module.css";
 
 export default function Footer({ completedTodos }) {
   return (
-    <span className={styles.footer}>Completed Todos: {CompletedTodos}</span>
+    <div className={styles.footer}>
+        <span className={styles.completedTodos}>Completed Todos: {CompletedTodos}</span>
+    </div>
   );
 }
