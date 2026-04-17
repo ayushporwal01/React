@@ -17,7 +17,7 @@
 }
 
 .todoInput {
-    padding: 6px;
+    padding-left: 20px;
     height: 30px;
     width: 100%;
     font-size: 1.6rem;
@@ -35,5 +35,6 @@
     color: white;
     border-radius: 5px;
     border: none;
+    margin-right: 1rem;
     cursor: pointer;
 }
