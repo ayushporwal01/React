@@ -5,8 +5,12 @@ export default function TodoItem({ item, todos, setTodos }) {
     setTodos(todos.filter((todo) => todo !== item));
   }
 
-  function completeTask() {
-    if(item.name) 
+  function completeTask(name) {
+    setTodos(
+      todos.map((todo) =>
+        todo.name === name ? { ...todo, done: !todo.done } : todo,
+      ),
+    );
   }
   return (
     <div className={styles.item}>
