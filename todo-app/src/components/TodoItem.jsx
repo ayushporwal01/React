@@ -7,12 +7,12 @@ export default function TodoItem({ item, todos, setTodos }) {
 
   function completeTask(name) {
     const newArray = todos.map((todo) =>
-      todo.name === name ? { ...todo, done: !todo.done } : todo,
+      todo.name === name ? { ...todo, completed: !todo.completed } : todo,
     );
     setTodos(newArray);
   }
 
-  const markCompleted = item.done ? styles.completed : "";
+  const markCompleted = item.completed ? styles.completed : "";
   return (
     <div className={styles.item}>
       <li
