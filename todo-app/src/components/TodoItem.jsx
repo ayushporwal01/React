@@ -5,10 +5,12 @@ export default function TodoItem({ item, todos, setTodos }) {
     setTodos(todos.filter((todo) => todo !== item));
   }
 
-  function 
+  function completeTask() {
+    if(item.name) 
+  }
   return (
     <div className={styles.item}>
-      <li onClick={completeTask(item.name)}>{item.name}</li>
+      <li onClick={(e) => completeTask(item.name)}>{item.name}</li>
       <button onClick={(e) => deleteTask(item)} className={styles.deleteBtn}>
         x
       </button>
