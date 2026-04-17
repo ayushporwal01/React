@@ -16,7 +16,7 @@ export default function TodoItem({ item, todos, setTodos }) {
   return (
     <div className={styles.item}>
       <li
-        className={styles.markCompleted}
+        className={markCompleted}
         onClick={(e) => completeTask(item.name)}
       >
         {item.name}
