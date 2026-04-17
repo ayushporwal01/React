@@ -1,11 +1,19 @@
 .footer {
     position: fixed;
     bottom: 0;
+    width: 100%;
     background-color: rgb(255, 217, 0);
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     padding: 20px;
     box-shadow: 8px -3px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.footerText {
+    font-size: 2rem;
+    font-weight: bold;
+}
