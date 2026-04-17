@@ -10,7 +10,7 @@ export default function TodoList({ todos, setTodos }) {
       {todos.length == 0 ? (
         <h1 className={styles.noTasks}>No tasks added yet.</h1>
       ) : (
-        todos.map((item, index) => (
+        sortedTodos.map((item, index) => (
           <>
             <TodoItem
               key={item.name}
