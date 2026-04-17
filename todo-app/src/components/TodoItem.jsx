@@ -6,7 +6,7 @@ export default function TodoItem({ item, todos, setTodos }) {
   }
   return (
     <div className={styles.item}>
-      <li>{item}</li>
+      <li>{item.name}</li>
       <button onClick={(e) => deleteTask(item)} className={styles.deleteBtn}>
         x
       </button>

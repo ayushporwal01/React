@@ -9,7 +9,12 @@ export default function TodoList({ todos, setTodos }) {
       ) : (
         todos.map((item, index) => (
           <>
-            <TodoItem key={index} item={item} todos={todos} setTodos={setTodos} />
+            <TodoItem
+              key={item.name}
+              item={item}
+              todos={todos}
+              setTodos={setTodos}
+            />
             <hr className={styles.line} />
           </>
         ))
