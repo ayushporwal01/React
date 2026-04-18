@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div>
-      <img src="./assets/" alt="Namaste Food Logo" />
+      <img src="./assets/food-logo.webp" alt="Namaste Food Logo" />
     </div>
   );
 }
