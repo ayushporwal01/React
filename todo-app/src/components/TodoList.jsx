@@ -13,7 +13,7 @@ export default function TodoList({ todos, setTodos }) {
         sortedTodos.map((item, index) => (
           <>
             <TodoItem
-              key={item.name}
+              key={item.index}
               item={item}
               todos={todos}
               setTodos={setTodos}
