@@ -1,8 +1,10 @@
+import styles from "header.module.css";
+
 export default function Header() {
   return (
-    <div className="header">
+    <div className={styles.header}>
       <div className="logo-container">
-        <img src="src/assets/food-logo.png" alt="Namaste Food Logo" />
+        <img className={styles.logo} src="src/assets/food-logo.png" alt="Namaste Food Logo" />
       </div>
       <div className="nav-items">
         <ul>
