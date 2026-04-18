@@ -11,6 +11,7 @@ export default function Todo() {
   });
 
   useEffect(() => {
+    console.log("Effect ran");
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
