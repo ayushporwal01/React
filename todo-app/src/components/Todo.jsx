@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Todo() {
   const [todos, setTodos] = useState(() => {
-    const savedTodos = localStorage.getItem("todos")
+    const savedTodos = localStorage.getItem("todos");
   });
   const completedTodos = todos.filter((todo) => todo.completed).length;
   const totalTodos = todos.length;
@@ -14,7 +14,7 @@ export default function Todo() {
     <div>
       <Form todos={todos} setTodos={setTodos} />
       <TodoList todos={todos} setTodos={setTodos} />
-      <Footer completedTodos={completedTodos} totalTodos={totalTodos}  />
+      <Footer completedTodos={completedTodos} totalTodos={totalTodos} />
     </div>
   );
 }
