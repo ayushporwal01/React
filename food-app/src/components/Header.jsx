@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="logo-container">
-        <img src="./assets/food-logo.webp" alt="Namaste Food Logo" />
+        <img src="src/assets/food-logo.png" alt="Namaste Food Logo" />
       </div>
       <div className="nav-items">
         <ul>
