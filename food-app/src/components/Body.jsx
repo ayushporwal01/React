@@ -1,13 +1,15 @@
+import styles from "./body.module.css";
+
 export default function Body() {
   return (
-    <div className="body">
-      <div className="searchContainer">
+    <div className={styles.body}>
+      <div className={styles.searchContainer}>
         <input
-          className="searchBar"
+          className={styles.searchBar}
           type="text"
           placeholder="Enter a Restaurant Name..."
         />
-        <button className="searchBtn">
+        <button className={styles.searchBtn}>
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
