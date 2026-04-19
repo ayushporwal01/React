@@ -11,9 +11,7 @@ export default function Body() {
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
-      {/* <div className="ResContainer">
-            <RestaurantCards/>
-        </div> */}
+      <div className="ResContainer">Restaurant Cards</div>
     </div>
   );
 }
