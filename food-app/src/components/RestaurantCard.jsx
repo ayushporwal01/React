@@ -3,20 +3,20 @@ import styles from "./resCard.module.css";
 export default function RestaurantCard() {
   return (
     <div className={styles.resCard}>
-      <div>
+      <div className={styles.resImage}>
         <img src="src/assets/res-img/1.jpg" alt="Pizza Hut Image" />
       </div>
       <div className={styles.resDetails}>
-        <h1 className={styles.resName}>Restaurant Name</h1>
+        <h1 className={styles.resName}>Pizza Hut</h1>
 
         <span className={styles.extraDetails}>
           <span className={styles.starIcon}>&#9733;</span>
-          <span className={styles.rating}>Rating</span> &bull;
-          <span className={styles.deliveryTime}>Dilivery Time</span>
+          <span className={styles.rating}>4.3</span> &bull;
+          <span className={styles.deliveryTime}>30-35mins</span>
         </span>
 
-        <h3 className={styles.cuisine}>Cuisine</h3>
-        <h3 className={styles.location}>Location</h3>
+        <p className={styles.cuisine}>Pizzas</p>
+        <p className={styles.location}>Bairagarh</p>
       </div>
     </div>
   );
