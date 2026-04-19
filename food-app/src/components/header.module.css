@@ -1,13 +1,14 @@
 .header {
     display: flex;
     align-items: center;
-    gap: 50rem;
+    justify-content: space-between;
     height: 70px;
     border-bottom: 1px solid black;
 }
 
 .logo {
     width: 70px;
+    margin-left: 100px;
 }
 
 .navItems > ul {
@@ -15,4 +16,5 @@
    gap: 3rem;
    list-style: none;
    font-size: 1.3rem;
+   margin-right: 100px;
 }
