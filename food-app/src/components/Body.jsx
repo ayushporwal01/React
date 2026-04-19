@@ -13,7 +13,17 @@ export default function Body() {
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
-      <div className="ResContainer">Restaurant Cards</div>
+      
+      <div className="ResContainer">
+        <h1 className="resName">Restaurant Name</h1>
+        <span className="resDetails">
+            <span className="starIcon">&#9733;</span>
+            <span className="rating">4.5</span> &middot;
+            <span className="deliveryTime">40-50mins</span>
+        </span>
+        <h3 className="cuisine">Pizzas</h3>
+        <h3 className="location">Bairagarh</h3>
+      </div>
     </div>
   );
 }
