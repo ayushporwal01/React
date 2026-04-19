@@ -1,6 +1,6 @@
 import styles from "./resCard.module.css";
 
-export default function RestaurantCard({resName, rating, deliveryTime, cuisine, location}) {
+export default function RestaurantCard({resData, resName, rating, deliveryTime, cuisine, location}) {
   return (
     <div className={styles.resCard}>
       <div className={styles.resImage}>
