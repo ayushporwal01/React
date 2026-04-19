@@ -1,0 +1,10 @@
+.resCard {
+    width: 250px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.resName {
+    font-size: 1.5rem;
+}
