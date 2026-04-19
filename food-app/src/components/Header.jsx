@@ -1,4 +1,4 @@
-import styles from "header.module.css";
+import styles from "./header.module.css";
 
 export default function Header() {
   return (
@@ -6,7 +6,7 @@ export default function Header() {
       <div className="logo-container">
         <img className={styles.logo} src="src/assets/food-logo.png" alt="Namaste Food Logo" />
       </div>
-      <div className="nav-items">
+      <div className={styles.navItems}>
         <ul>
           <li>Home</li>
           <li>About Us</li>

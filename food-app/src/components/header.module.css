@@ -1,7 +1,18 @@
 .header {
     display: flex;
+    align-items: center;
+    gap: 50rem;
+    height: 70px;
+    border-bottom: 1px solid black;
 }
 
 .logo {
-    width: 100px;
+    width: 70px;
+}
+
+.navItems > ul {
+   display: flex;
+   gap: 3rem;
+   list-style: none;
+   font-size: 1.3rem;
 }
