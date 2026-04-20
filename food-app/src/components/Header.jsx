@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import { LOGO_URL } from "../utils/constants";
+import LOGO_URL from "../utils/constants";
 
 export default function Header() {
   return (
