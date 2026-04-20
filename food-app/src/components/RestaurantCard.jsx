@@ -4,13 +4,13 @@ export default function RestaurantCard({ resData }) {
   const { name, avgRating, cuisines, areaName, sla } = resData?.info;
 
   const deliveryTime = sla?.deliveryTime;
-
+  
   const id = resData.info.cloudinaryImageId;
 
   return (
     <div className={styles.resCard}>
       <div className={styles.resImage}>
-        <img src={url + id} alt={name} />
+        <img src={CDN_URL + id} alt={name} />
       </div>
       <div className={styles.resDetails}>
         <h1 className={styles.resName}>{name}</h1>
