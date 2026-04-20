@@ -6,28 +6,37 @@ import ItemFilter from "./ItemFilter";
 import { useEffect, useState } from "react";
 
 export default function Body() {
-  const processedList = resList.map((res) => ({
-    ...res,
-    price: parseInt(res.info.costForTwo.replace(/\D/g, "")),
-  }));
-
-  const [listOfRestaurant, setListOfRestaurant] = useState(processedList);
+  const [listOfRestaurant, setListOfRestaurant] = useState([]);
+  const [allRestaurants, setAllRestaurants] = useState([]);
 
   useEffect(() => {
     fetchData();
   }, []);
 
   async function fetchData() {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=23.25050&lng=77.40650&carousel=true&third_party_vendor=1",
-    );
-    const json = await data.json();
+    try {
+      const data = await fetch(
+        "https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=23.25050&lng=77.40650&carousel=true&third_party_vendor=1",
+      );
+      const json = await data.json();
 
-    const restaurants =
-      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants;
+      const restaurantCard = json?.data?.cards.find(
+        (card) => card?.card?.card?.gridElements?.infoWithStyle?.restaurants,
+      );
 
-    setListOfRestaurant(restaurants);
+      const restaurants =
+        restaurantCard?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+
+      const processedList = restaurants.map((res) => ({
+        ...res,
+        price: parseInt(res.info.costForTwo.replace(/\D/g, "")),
+      }));
+
+      setListOfRestaurant(processedList);
+      setAllRestaurants(processedList);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   }
 
   return (
@@ -37,7 +46,7 @@ export default function Body() {
       <ItemFilter
         listOfRestaurant={listOfRestaurant}
         setListOfRestaurant={setListOfRestaurant}
-        processedList={processedList}
+        restaurants={allRestaurants}
       />
 
       <div className={styles.resContainer}>
