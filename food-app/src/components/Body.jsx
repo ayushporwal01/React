@@ -3,18 +3,25 @@ import RestaurantCard from "./RestaurantCard";
 import { resList } from "../utils/mockData";
 import SearchBar from "./SearchBar";
 import ItemFilter from "./ItemFilter";
+import { useState } from "react";
 
 export default function Body() {
+  const processedList = resList.map((res) => ({
+    ...res,
+    price: parseInt(res.info.costForTwo.replace(/\D/g, "")),
+  }));
+
+  const [list, setList] = useState(processedList);
+
   return (
     <div className={styles.body}>
-
       <SearchBar />
 
-      <ItemFilter/>
+      <ItemFilter list={list} setList={setList} processedList={processedList} />
 
       <div className={styles.resContainer}>
-        {resList.map((restaurant) => (
-          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
+        {list.map((res) => (
+          <RestaurantCard key={res?.info?.id} resData={res} />
         ))}
       </div>
     </div>
