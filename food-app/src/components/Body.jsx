@@ -1,6 +1,5 @@
 import styles from "./body.module.css";
 import RestaurantCard from "./RestaurantCard";
-import { resList } from "../utils/mockData";
 import SearchBar from "./SearchBar";
 import ItemFilter from "./ItemFilter";
 import { useEffect, useState } from "react";
