@@ -7,13 +7,6 @@
     padding-bottom: 4rem;
 }
 
-.searchContainer {
-    display: flex;
-    width: 600px;
-    gap: 10px;
-    position: relative;
-}
-
 .resContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

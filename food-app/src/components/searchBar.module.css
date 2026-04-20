@@ -1,3 +1,10 @@
+.searchContainer {
+    display: flex;
+    width: 600px;
+    gap: 10px;
+    position: relative;
+}
+
 .searchBar {
     height: 50px;
     flex: 1;

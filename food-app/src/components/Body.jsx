@@ -1,12 +1,13 @@
 import styles from "./body.module.css";
 import RestaurantCard from "./RestaurantCard";
 import { resList } from "../utils/mockData";
-import searchBar from "./searchBar";
+import SearchBar from "./SearchBar";
 
 export default function Body() {
   return (
     <div className={styles.body}>
-      <searchBar />
+
+      <SearchBar />
 
       <div className={styles.resContainer}>
         {resList.map((restaurant) => (
