@@ -53,7 +53,10 @@
 }
 
 .cuisine,
-.location {
+.costForTwo {
     font-size: 0.9rem;
+}
+
+.cuisine {
     color: #606060;
 }

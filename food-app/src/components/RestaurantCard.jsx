@@ -2,7 +2,7 @@ import styles from "./resCard.module.css";
 import { CDN_URL } from "../utils/constants";
 
 export default function RestaurantCard({ resData }) {
-  const { name, avgRating, cuisines, areaName, sla } = resData?.info;
+  const { name, avgRating, cuisines, areaName, costForTwo, sla } = resData?.info;
 
   const deliveryTime = sla?.deliveryTime;
 
@@ -24,7 +24,7 @@ export default function RestaurantCard({ resData }) {
 
         <div className={styles.moreDetails}>
           <p className={styles.cuisine}>{cuisines.join(", ")}</p>
-          <p className={styles.location}>{areaName}</p>
+          <p className={styles.costForTwo}>{costForTwo}</p>
         </div>
       </div>
     </div>
