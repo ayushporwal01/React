@@ -1571,7 +1571,9 @@ export default function Body() {
       </div>
 
       <div className={styles.resContainer}>
-        {resList.map((restaurant) => <RestaurantCard resData={restaurant} />)}
+        {resList.map((restaurant) => (
+          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
+        ))}
       </div>
     </div>
   );
