@@ -1,5 +1,5 @@
 import styles from "./resCard.module.css";
-import { CDN_URL } from "../utils/constants";
+import CDN_URL from "../utils/constants";
 
 export default function RestaurantCard({ resData }) {
   const { name, avgRating, cuisines, areaName, sla } = resData?.info;
