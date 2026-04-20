@@ -1,5 +1,4 @@
 import styles from "./ItemFilter.module.css";
-import { resList } from "../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
 
 export default function ItemFilter({listOfRestaurant, setListOfRestaurant, restaurants}) {
