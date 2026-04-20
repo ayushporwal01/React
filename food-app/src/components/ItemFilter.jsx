@@ -2,11 +2,11 @@ import styles from "./ItemFilter.module.css";
 import { resList } from "../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
 
-export default function ItemFilter({list, setList, processedList}) {
+export default function ItemFilter({listOfRestaurant, setListOfRestaurant, processedList}) {
   function handleSort(e) {
     let value = e.target.value;
 
-    let sortedList = [...list];
+    let sortedList = [...listOfRestaurant];
 
     if (value === "low") {
       sortedList.sort((a, b) => a.price - b.price);
@@ -14,7 +14,7 @@ export default function ItemFilter({list, setList, processedList}) {
       sortedList.sort((a, b) => b.price - a.price);
     } else sortedList = processedList;
 
-    setList(sortedList);
+    setListOfRestaurant(sortedList);
   }
 
   return (
