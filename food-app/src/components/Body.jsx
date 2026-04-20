@@ -1,6 +1,6 @@
 import styles from "./body.module.css";
 import RestaurantCard from "./RestaurantCard";
-import resList from "../utils/mockData";
+import { resList } from "../utils/mockData";
 
 export default function Body() {
   return (
