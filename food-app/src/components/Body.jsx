@@ -3,6 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import SearchBar from "./SearchBar";
 import ItemFilter from "./ItemFilter";
 import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 export default function Body() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -36,6 +37,10 @@ export default function Body() {
     } catch (error) {
       console.error("Error fetching data:", error);
     }
+  }
+
+  if (listOfRestaurant.length === 0) {
+    return <Shimmer />;
   }
 
   return (
