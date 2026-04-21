@@ -18,13 +18,13 @@ export default function ItemFilter({listOfRestaurant, setListOfRestaurant, resta
 
   return (
     <div className={styles.container}>
-      <label htmlFor="priceFilter">Sort by:</label>
-
       <select className={styles.dropdown} onChange={handleSort}>
-        <option value="normal">Normal</option>
-        <option value="low">Price -- Low To High</option>
-        <option value="high">Price -- High To Low</option>
+        <option value="" disabled selected hidden>Sort By</option>
+        <option value="default">Default</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
       </select>
+      <i class="fa-solid fa-angle-down"></i>
     </div>
   );
 }

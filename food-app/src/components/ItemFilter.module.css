@@ -1,8 +1,37 @@
 .container {
     display: flex;
     gap: 0.8rem;
+    align-self: flex-start;
+    margin-left: 9.3rem;
+    margin-bottom: -2.3rem;
+    position: relative;
+}
+
+.container>select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 35px 10px 10px;
+    padding-left: 15px;
+}
+
+.container > select > option {
+    color: #363636;
+}
+
+.container>i {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    color: #6b6b6b;
+
 }
 
 .dropdown {
+    padding: 8px 10px;
+    border-radius: 40px;
+    color: #363636;
+    font-weight: 500;
+    outline: none;
     cursor: pointer;
 }
