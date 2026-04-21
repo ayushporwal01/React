@@ -1,0 +1,17 @@
+.shimmerCard {
+    width: 290px;
+    height: 310px;
+    background-color:#f9f9f9;
+    padding: 0.8rem;
+}
+
+.shimmerImg {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    background-color: #e7e7e7 ;
+}
+
+.shimmerLine1 {
+
+}
