@@ -5,10 +5,11 @@
     gap: 5rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
-    position: relative;
 }
 
 .resContainer {
+    width: 100%;
+    max-width: 1223px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.3rem;
