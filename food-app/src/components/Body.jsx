@@ -3,11 +3,11 @@ import RestaurantCard from "./RestaurantCard";
 import SearchBar from "./SearchBar";
 import ItemFilter from "./ItemFilter";
 import { useEffect, useState } from "react";
-import Shimmer from "./Shimmer";
+import ShimmerCard from "./ShimmerCard";
 
 export default function Body() {
-  const [listOfRestaurant, setListOfRestaurant] = useState([]);
-  const [allRestaurants, setAllRestaurants] = useState([]);
+  const [allRestaurants, setAllRestaurants] = useState([]); //original data
+  const [listOfRestaurant, setListOfRestaurant] = useState([]); //filtered data
 
   useEffect(() => {
     fetchData();
@@ -41,7 +41,7 @@ export default function Body() {
 
   return (
     <div className={styles.body}>
-      <SearchBar />
+      <SearchBar allRestaurants={allRestaurants} setListOfRestaurant={setListOfRestaurant} />
 
       <ItemFilter
         listOfRestaurant={listOfRestaurant}
