@@ -4,7 +4,7 @@ import { CDN_URL } from "../utils/constants";
 export default function RestaurantCard({ resData }) {
   const { name, avgRating, cuisines, areaName, costForTwo, sla } = resData?.info;
 
-  const deliveryTime = sla?.deliveryTime;
+  const deliveryTime = sla?.slaString;
 
   const id = resData?.info?.cloudinaryImageId;
 
@@ -19,7 +19,7 @@ export default function RestaurantCard({ resData }) {
         <span className={styles.extraDetails}>
           <span className={styles.starIcon}>&#9733;</span>
           <span className={styles.rating}>{avgRating}</span> &bull;
-          <span className={styles.deliveryTime}>{deliveryTime} mins</span>
+          <span className={styles.deliveryTime}>{deliveryTime}</span>
         </span>
 
         <div className={styles.moreDetails}>
