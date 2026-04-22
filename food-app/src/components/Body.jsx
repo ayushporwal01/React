@@ -39,10 +39,6 @@ export default function Body() {
     }
   }
 
-  if (listOfRestaurant.length === 0) {
-    return <Shimmer />;
-  }
-
   return (
     <div className={styles.body}>
       <SearchBar />
@@ -54,9 +50,13 @@ export default function Body() {
       />
 
       <div className={styles.resContainer}>
-        {listOfRestaurant.map((res) => (
-          <RestaurantCard key={res?.info?.id} resData={res} />
-        ))}
+        {listOfRestaurant.length === 0 ? (
+          <Shimmer />
+        ) : (
+          listOfRestaurant.map((res) => (
+            <RestaurantCard key={res?.info?.id} resData={res} />
+          ))
+        )}
       </div>
     </div>
   );

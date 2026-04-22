@@ -19,7 +19,7 @@ export default function ItemFilter({listOfRestaurant, setListOfRestaurant, resta
   return (
     <div className={styles.container}>
       <select className={styles.dropdown} onChange={handleSort}>
-        <option value="" disabled selected hidden>Sort By</option>
+        <option value="" disabled hidden>Sort By</option>
         <option value="default">Default</option>
         <option value="low">Price: Low to High</option>
         <option value="high">Price: High to Low</option>

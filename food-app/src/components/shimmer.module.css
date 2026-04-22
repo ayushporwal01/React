@@ -1,7 +1,17 @@
+.shimmerContainer {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.3rem;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+}
+
 .shimmerCard {
     width: 290px;
     height: 310px;
-    background-color:#f9f9f9;
+    background-color:#fafafa;
     padding: 0.8rem;
 }
 
@@ -13,5 +23,33 @@
 }
 
 .shimmerLine1 {
+   width: 140px;
+   height: 15px;
+   background-color: #e7e7e7;
+   margin-top: 1rem;
+   margin-left: 0.6rem;
+}
 
+.shimmerLine2 {
+   width: 120px;
+   height: 15px;
+   background-color: #e7e7e7;
+   margin-top: 0.5rem;
+   margin-left: 0.6rem;
+}
+
+.shimmerLine3 {
+   width: 220px;
+   height: 15px;
+   background-color: #e7e7e7;
+   margin-top: 0.5rem;
+   margin-left: 0.6rem;
+}
+
+.shimmerLine4 {
+   width: 100px;
+   height: 15px;
+   background-color: #e7e7e7;
+   margin-top: 0.5rem;
+   margin-left: 0.6rem;
 }
