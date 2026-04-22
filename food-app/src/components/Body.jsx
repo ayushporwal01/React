@@ -29,15 +29,11 @@ export default function Body() {
 
       const json = await response.json();
 
-      // const restaurants =
-      //   json?.data?.cards
-      //     ?.map((c) => c?.card?.card)
-      //     ?.find((c) => c?.gridElements?.infoWithStyle?.restaurants)
-      //     ?.gridElements?.infoWithStyle?.restaurants ?? [];
-
       const restaurants =
-        json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-          ?.restaurants;
+        json?.data?.cards
+          ?.map((c) => c?.card?.card)
+          ?.find((c) => c?.gridElements?.infoWithStyle?.restaurants)
+          ?.gridElements?.infoWithStyle?.restaurants ?? [];
 
       console.log(json?.data?.cards[1]?.card);
       console.log(json?.data?.cards[1]?.card?.card);
