@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import ItemFilter from "./ItemFilter";
 import ShimmerCard from "./ShimmerCard";
 
-export default function Body() {
+export default function Home() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [loading, setLoading] = useState(true);
