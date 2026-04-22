@@ -6,7 +6,7 @@ export default function RestaurantCard({ resData }) {
 
   const deliveryTime = sla?.deliveryTime;
 
-  const id = resData.info.cloudinaryImageId;
+  const id = resData?.info?.cloudinaryImageId;
 
   return (
     <div className={styles.resCard}>
