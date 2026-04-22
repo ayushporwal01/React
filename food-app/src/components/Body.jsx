@@ -9,6 +9,8 @@ import ShimmerCard from "./ShimmerCard";
 export default function Body() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetchData();
@@ -16,29 +18,33 @@ export default function Body() {
 
   async function fetchData() {
     try {
+      setLoading(true);
+      setError(null);
+
       const response = await fetch(API_URL);
+
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`HTTP error! ${response.status}`);
       }
 
-      const json = await data.json();
+      const json = await response.json();
 
-      const restaurantCard = json?.data?.cards.find(
-        (card) => card?.card?.card?.gridElements?.infoWithStyle?.restaurants,
-      );
-
-      const restaurants =
-        restaurantCard?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+      const restaurants = json?.data?.cards
+        ?.map((c) => c?.card?.card)
+        ?.find((c) => c?.gridElements?.infoWithStyle?.restaurants)?.gridElements
+        ?.infoWithStyle?.restaurants;
 
       const processedList = (restaurants ?? []).map((res) => ({
         ...res,
-        price: parseInt(res?.info?.costForTwo.replace(/\D/g, "") || "0"),
+        price: parseInt(res?.info?.costForTwo?.replace(/\D/g, "") || "0"),
       }));
 
       setListOfRestaurant(processedList);
       setFilteredRestaurant(processedList);
     } catch (error) {
-      console.error("Error fetching data:", error);
+      setError(error.message);
+    } finally {
+      setLoading(false);
     }
   }
 
@@ -55,13 +61,19 @@ export default function Body() {
       />
 
       <div className={styles.resContainer}>
-        {filteredRestaurant.length === 0
-          ? Array(8)
-              .fill("")
-              .map((_, i) => <ShimmerCard key={i} />)
-          : filteredRestaurant.map((res) => (
-              <RestaurantCard key={res?.info?.id} resData={res} />
-            ))}
+        {loading ? (
+          Array(8)
+            .fill("")
+            .map((_, i) => <ShimmerCard key={i} />)
+        ) : error ? (
+          <h2>Error: {error}</h2>
+        ) : filteredRestaurant.length === 0 ? (
+          <p className={styles.noResFoundMsg}>No Restaurants found</p>
+        ) : (
+          filteredRestaurant.map((res) => (
+            <RestaurantCard key={res?.info?.id} resData={res} />
+          ))
+        )}
       </div>
     </div>
   );
