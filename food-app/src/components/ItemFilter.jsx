@@ -24,7 +24,7 @@ export default function ItemFilter({listOfRestaurant, setListOfRestaurant, resta
         <option value="low">Price: Low to High</option>
         <option value="high">Price: High to Low</option>
       </select>
-      <i class="fa-solid fa-angle-down"></i>
+      <i className="fa-solid fa-angle-down"></i>
     </div>
   );
 }

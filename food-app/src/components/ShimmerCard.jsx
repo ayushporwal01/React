@@ -1,4 +1,4 @@
-import styles from "./shimmer.module.css";
+import styles from "./shimmerCard.module.css";
 
 export default function ShimmerCard() {
   return (

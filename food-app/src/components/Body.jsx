@@ -50,13 +50,13 @@ export default function Body() {
       />
 
       <div className={styles.resContainer}>
-        {listOfRestaurant.length === 0 ? (
-          <Shimmer />
-        ) : (
-          listOfRestaurant.map((res) => (
-            <RestaurantCard key={res?.info?.id} resData={res} />
-          ))
-        )}
+        {listOfRestaurant.length === 0
+          ? Array(8)
+              .fill("")
+              .map((_, i) => <ShimmerCard key={i} />)
+          : listOfRestaurant.map((res) => (
+              <RestaurantCard key={res?.info?.id} resData={res} />
+            ))}
       </div>
     </div>
   );
