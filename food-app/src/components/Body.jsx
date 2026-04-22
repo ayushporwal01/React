@@ -28,7 +28,7 @@ export default function Body() {
 
       const processedList = restaurants.map((res) => ({
         ...res,
-        price: parseInt(res.info.costForTwo.replace(/\D/g, "")),
+        price: parseInt(res?.info?.costForTwo.replace(/\D/g, "")),
       }));
 
       setListOfRestaurant(processedList);
