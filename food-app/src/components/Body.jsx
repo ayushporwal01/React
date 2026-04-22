@@ -16,7 +16,7 @@ export default function Body() {
   async function fetchData() {
     try {
       const data = await fetch(
-        "https://corsproxy.io/?url=https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=23.25050&lng=77.40650&carousel=true&third_party_vendor=1",
+        "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=23.25050&lng=77.40650&carousel=true&third_party_vendor=1",
       );
       const json = await data.json();
 
@@ -41,7 +41,10 @@ export default function Body() {
 
   return (
     <div className={styles.body}>
-      <SearchBar listOfRestaurant={listOfRestaurant} setFilteredRestaurant={setFilteredRestaurant} />
+      <SearchBar
+        listOfRestaurant={listOfRestaurant}
+        setFilteredRestaurant={setFilteredRestaurant}
+      />
 
       <ItemFilter
         listOfRestaurant={listOfRestaurant}
