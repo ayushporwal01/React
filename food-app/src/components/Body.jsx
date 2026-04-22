@@ -1,5 +1,6 @@
 import styles from "./body.module.css";
 import RestaurantCard from "./RestaurantCard";
+import { API_URL } from "../utils/constants";
 import SearchBar from "./SearchBar";
 import {useState, useEffect} from "react";
 import ItemFilter from "./ItemFilter";
@@ -15,9 +16,7 @@ export default function Body() {
 
   async function fetchData() {
     try {
-      const data = await fetch(
-        "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=23.25050&lng=77.40650&carousel=true&third_party_vendor=1",
-      );
+      const data = await fetch(API_URL);
       const json = await data.json();
 
       const restaurantCard = json?.data?.cards.find(
