@@ -1,8 +1,8 @@
 import styles from "./body.module.css";
 import RestaurantCard from "./RestaurantCard";
 import SearchBar from "./SearchBar";
+import {useState, useEffect} from "react";
 import ItemFilter from "./ItemFilter";
-import { useEffect, useState } from "react";
 import ShimmerCard from "./ShimmerCard";
 
 export default function Body() {
