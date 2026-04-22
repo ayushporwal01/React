@@ -1,8 +1,15 @@
 import { useState } from "react";
 import styles from "./searchBar.module.css";
 
-export default function SearchBar({ allRestaurants, setListOfRestaurant }) {
+export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
   const [searchText, setSearchText] = useState("");
+
+  function searchFilter() {
+    const filteredList = listOfRestaurant.filter((res) => {
+      return res.info.name.toLowerCase().includes(searchText.toLowerCase());
+    });
+    setFilteredRestaurant(filteredList);
+  }
   return (
     <div className={styles.searchContainer}>
       <input
@@ -11,17 +18,13 @@ export default function SearchBar({ allRestaurants, setListOfRestaurant }) {
         value={searchText}
         placeholder="Enter a Restaurant Name..."
         onChange={(e) => setSearchText(e.target.value)}
-      />
-      <button
-        className={styles.searchBtn}
-        onClick={() => {
-          const filteredRestaurant = allRestaurants.filter((res) => {
-            return res.info.name === searchText;
-          });
-
-          setListOfRestaurant(filteredRestaurant);
+        onKeyDown={(e) => {
+          if (e.key == "Enter") {
+            searchFilter();
+          }
         }}
-      >
+      />
+      <button className={styles.searchBtn} onClick={searchFilter}>
         <i className="fa-solid fa-magnifying-glass"></i>
       </button>
     </div>

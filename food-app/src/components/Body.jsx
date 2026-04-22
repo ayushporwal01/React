@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import ShimmerCard from "./ShimmerCard";
 
 export default function Body() {
-  const [allRestaurants, setAllRestaurants] = useState([]); //original data
-  const [listOfRestaurant, setListOfRestaurant] = useState([]); //filtered data
+  const [listOfRestaurant, setListOfRestaurant] = useState([]);
+  const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -33,7 +33,7 @@ export default function Body() {
       }));
 
       setListOfRestaurant(processedList);
-      setAllRestaurants(processedList);
+      setFilteredRestaurant(processedList);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -41,20 +41,19 @@ export default function Body() {
 
   return (
     <div className={styles.body}>
-      <SearchBar allRestaurants={allRestaurants} setListOfRestaurant={setListOfRestaurant} />
+      <SearchBar listOfRestaurant={listOfRestaurant} setFilteredRestaurant={setFilteredRestaurant} />
 
       <ItemFilter
         listOfRestaurant={listOfRestaurant}
-        setListOfRestaurant={setListOfRestaurant}
-        restaurants={allRestaurants}
+        setFilteredRestaurant={setFilteredRestaurant}
       />
 
       <div className={styles.resContainer}>
-        {listOfRestaurant.length === 0
+        {filteredRestaurant.length === 0
           ? Array(8)
               .fill("")
               .map((_, i) => <ShimmerCard key={i} />)
-          : listOfRestaurant.map((res) => (
+          : filteredRestaurant.map((res) => (
               <RestaurantCard key={res?.info?.id} resData={res} />
             ))}
       </div>
