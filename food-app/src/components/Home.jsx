@@ -1,4 +1,4 @@
-import styles from "./body.module.css";
+import styles from "./home.module.css";
 import RestaurantCard from "./RestaurantCard";
 import { API_URL } from "../utils/constants";
 import SearchBar from "./SearchBar";

@@ -1,0 +1,17 @@
+.errContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errContainer>h1 {
+    font-size: 8rem;
+    color: #656565;
+}
+
+.errContainer>h3 {
+    font-size: 1.8rem;
+    color: #656565;
+}
