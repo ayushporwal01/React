@@ -5,34 +5,21 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Error from "./components/Error";
-
-function Layout() {
-  const location = useLocation();
-
-  const hideHeader =
-    location.pathname !== "/" &&
-    location.pathname !== "/about" &&
-    location.pathname !== "/contact";
-
-  return (
-    <>
-      {!hideHeader && <Header />}
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-    </>
-  );
-}
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Layout />
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+
+          <Route path="*" element={<Error />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
