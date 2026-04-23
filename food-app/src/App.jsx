@@ -5,14 +5,14 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Error from "./components/Error";
-import Layout from "./components/Layout";
+import AppLayout from "./components/AppLayout";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
