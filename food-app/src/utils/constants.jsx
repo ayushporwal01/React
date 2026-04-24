@@ -6,4 +6,4 @@ export const CDN_URL =
 export const LOGO_URL = "/food-logo.png";
 
 export const MENU_URL =
-  "https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.25050&lng=77.40650&restaurantId={resId}&submitAction=ENTER";
+  "https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=23.25050&lng=77.40650&restaurantId=";
