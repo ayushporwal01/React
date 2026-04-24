@@ -1,5 +1,5 @@
-import { Routes, Route, Outlet } from "react-router-dom";
 import Header from "./Header";
+import { Outlet } from "react-router-dom";
 
 export default function AppLayout() {
   return (

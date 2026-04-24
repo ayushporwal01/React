@@ -1,6 +1,6 @@
-import styles from "./shimmerCard.module.css";
+import styles from "./shimmer.module.css";
 
-export default function ShimmerCard() {
+export default function Shimmer() {
   return (
     <div className={styles.shimmerCard}>
       <div className={styles.shimmerImg}></div>

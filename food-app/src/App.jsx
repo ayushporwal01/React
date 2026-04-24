@@ -3,9 +3,10 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./components/Error";
 import AppLayout from "./components/AppLayout";
+import RestaurantMenu from "./components/RestaurantMenu";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="restaurants/:resId" element={<RestaurantMenu />} />
           </Route>
 
           <Route path="*" element={<Error />} />

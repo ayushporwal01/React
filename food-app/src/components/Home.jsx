@@ -1,10 +1,10 @@
 import styles from "./home.module.css";
-import RestaurantCard from "./RestaurantCard";
 import { API_URL } from "../utils/constants";
+import RestaurantCard from "./RestaurantCard";
 import SearchBar from "./SearchBar";
 import { useState, useEffect } from "react";
 import ItemFilter from "./ItemFilter";
-import ShimmerCard from "./ShimmerCard";
+import Shimmer from "./Shimmer";
 
 export default function Home() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -69,7 +69,7 @@ export default function Home() {
         {loading ? (
           Array(8)
             .fill("")
-            .map((_, i) => <ShimmerCard key={i} />)
+            .map((_, i) => <Shimmer key={i} />)
         ) : error ? (
           <h2>Error: {error}</h2>
         ) : filteredRestaurant.length === 0 ? (

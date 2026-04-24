@@ -1,0 +1,8 @@
+- CreateBrowserRouter
+- Routes
+- Route
+- Outlet
+- Link
+- Client Side Routing
+- Server Side Routing
+- Dynamic Routes
