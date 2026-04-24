@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import { MENU_URL } from "../utils/constants";
+import styles from "./resMenu.module.css";
 
 export default function RestaurantMenu() {
   useEffect(() => {
@@ -9,25 +11,27 @@ export default function RestaurantMenu() {
   const [resInfo, setResInfo] = useState(null);
 
   async function fetchMenu() {
-    const data = await fetch("");
+    const data = await fetch(MENU_URL);
     const json = await data.json();
 
-    setResInfo();
+    console.log(json);
+    setResInfo(json?.data);
   }
 
-  return resInfo === null ? (
-    <Shimmer />
-  ) : (
+  if (resInfo === null) return <Shimmer />;
+
+  const { name, cuisines, cloudinaryImageId, avgRating, costForTwoMessage } =
+    resInfo?.cards[2]?.card?.card?.info;
+
+  return (
     <div>
-      <h1>Restaurant Name</h1>
-      <h2>Menu</h2>
-      <ul>
-        <li>Biryani</li>
-        <li>Pizza</li>
-        <li>Pasta</li>
-        <li>Paneer Tikka</li>
-        <li>Chhole Bhature</li>
-      </ul>
+      <h1>{name}</h1>
+      <span className={styles.extraDetails}>
+        <span className={styles.starIcon}>&#9733;</span>
+        <span className={styles.rating}>{avgRating}</span> &bull;
+        <span className={styles.cost}> {costForTwoMessage}</span>
+      </span>
+      <p className={styles.cuisine}>{cuisines.join(", ")}</p>
     </div>
   );
 }

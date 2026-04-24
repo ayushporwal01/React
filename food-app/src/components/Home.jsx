@@ -35,10 +35,6 @@ export default function Home() {
           ?.find((c) => c?.gridElements?.infoWithStyle?.restaurants)
           ?.gridElements?.infoWithStyle?.restaurants ?? [];
 
-      console.log(json?.data?.cards[1]?.card);
-      console.log(json?.data?.cards[1]?.card?.card);
-      console.log(json?.data?.cards[1]?.card?.card?.card);
-
       const processedList = (restaurants ?? []).map((res) => ({
         ...res,
         price: parseInt(res?.info?.costForTwo?.replace(/\D/g, "") || "0"),
