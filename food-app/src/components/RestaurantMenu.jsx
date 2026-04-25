@@ -35,43 +35,45 @@ export default function RestaurantMenu() {
     infoCard?.card?.card?.info || {};
 
   return (
-    <div className="menu">
-      <div className="resDetails">
-        <h1>{name}</h1>
+    <div className={styles.menuContainer}>
+      <div className={styles.menu}>
+        <div className="menuDetails">
+          <h1>{name}</h1>
 
-        <span className={styles.extraDetails}>
-          <span className={styles.starIcon}>&#9733;</span>
-          <span className={styles.rating}>{avgRating}</span> &bull;
-          <span className={styles.cost}> {costForTwoMessage}</span>
-        </span>
+          <span className={styles.extraDetails}>
+            <span className={styles.starIcon}>&#9733;</span>
+            <span className={styles.rating}>{avgRating}</span> &bull;
+            <span className={styles.cost}> {costForTwoMessage}</span>
+          </span>
 
-        <p className={styles.cuisine}>{cuisines?.join(", ")}</p>
-      </div>
+          <p className={styles.cuisine}>{cuisines?.join(", ")}</p>
+        </div>
 
-      <h4>Menu</h4>
+        <h4 className={styles.menuText}>Menu</h4>
 
-      <div className="menuItems">
-        {cardsWithTitle?.map((section, index) => {
-          const { title, itemCards } = section?.card?.card;
+        <div className={styles.menuItems}>
+          {cardsWithTitle?.map((section, index) => {
+            const { title, itemCards } = section?.card?.card;
 
-          return (
-            <div key={index}>
-              <h4>
-                {title} ({itemCards?.length})
-              </h4>
+            return (
+              <div key={index} className="itemContainer">
+                <h4 className="itemCategory">
+                  {title} ({itemCards?.length})
+                </h4>
 
-              <div className="items">
-                {itemCards?.map((item) => {
-                  return (
-                    <div key={item?.card?.info?.id}>
-                      {item?.card?.info?.name}
-                    </div>
-                  );
-                })}
+                <div className={styles.items}>
+                  {itemCards?.map((item) => {
+                    return (
+                      <div key={item?.card?.info?.id}>
+                        {item?.card?.info?.name}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
