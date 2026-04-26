@@ -3,6 +3,8 @@
 - Route
 - Outlet
 - Link
+  - wrapper above anchor tag.
+  - doesn't reload the page.
 - Client Side Routing
 - Server Side Routing
 - Dynamic Routes

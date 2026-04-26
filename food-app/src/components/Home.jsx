@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 import { useState, useEffect } from "react";
 import ItemFilter from "./ItemFilter";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -72,7 +73,9 @@ export default function Home() {
           <p className={styles.noResFoundMsg}>No Restaurants found</p>
         ) : (
           filteredRestaurant.map((res) => (
-            <RestaurantCard key={res?.info?.id} resData={res} />
+            <Link key={res?.info?.id} to={"/restaurants/" + res?.info?.id}>
+              <RestaurantCard resData={res} />
+            </Link>
           ))
         )}
       </div>

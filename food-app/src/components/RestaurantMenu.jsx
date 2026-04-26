@@ -3,6 +3,7 @@ import Shimmer from "./Shimmer";
 import { MENU_URL } from "../utils/constants";
 import styles from "./resMenu.module.css";
 import { useParams } from "react-router-dom";
+import Category from "./Category";
 
 export default function RestaurantMenu() {
   useEffect(() => {
@@ -25,8 +26,14 @@ export default function RestaurantMenu() {
   const categoryCards = resInfo?.cards?.find((c) => c?.groupedCard)?.groupedCard
     ?.cardGroupMap?.REGULAR?.cards;
 
-  const cardsWithTitle = categoryCards.filter(
-    (card) => card?.card?.card?.title,
+  let cardsWithTitle = categoryCards.filter((card) => card?.card?.card?.title);
+
+  if (cardsWithTitle[0]?.card?.card?.title?.toLowerCase() !== "recommended") {
+    cardsWithTitle = cardsWithTitle.slice(1);
+  }
+
+  const subCategoryCards = categoryCards.filter(
+    (card) => card?.card?.card?.categories,
   );
 
   const infoCard = resInfo?.cards?.find((card) => card?.card?.card?.info);
@@ -51,27 +58,10 @@ export default function RestaurantMenu() {
 
         <h4 className={styles.menuText}>Menu</h4>
 
+        {/* Menu Sections */}
         <div className={styles.menuItems}>
           {cardsWithTitle?.map((section, index) => {
-            const { title, itemCards } = section?.card?.card;
-
-            return (
-              <div key={index} className="itemContainer">
-                <h4 className="itemCategory">
-                  {title} ({itemCards?.length})
-                </h4>
-
-                <div className={styles.items}>
-                  {itemCards?.map((item) => {
-                    return (
-                      <div key={item?.card?.info?.id}>
-                        {item?.card?.info?.name}
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            );
+            return <Category key={index} section={section} index={index} />;
           })}
         </div>
       </div>

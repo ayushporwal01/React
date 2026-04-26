@@ -1,0 +1,15 @@
+.items {
+    margin-top: 0.5rem;
+}
+
+.subCategoryTitle {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subCategory {
+    color: rgb(24, 24, 24);
+}
