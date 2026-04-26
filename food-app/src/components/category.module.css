@@ -2,14 +2,37 @@
     margin-top: 0.5rem;
 }
 
+.itemContainer {
+    width: 100%;
+}
+
+.itemCategory {
+  display: flex;
+  align-items: center;      
+  justify-content: space-between; 
+  padding-bottom: 0.3rem;
+}
+
+.subCategory {
+    color: rgb(24, 24, 24);
+    cursor: "pointer",
+}
+
+
 .subCategoryTitle {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
-.subCategory {
-    color: rgb(24, 24, 24);
+.subCategory:last-child .subCategoryTitle {
+    border-bottom: none;
 }
+
+.subCategory.open:last-child .subCategoryTitle {
+  border-bottom: 1px solid #ccc;
+}
+

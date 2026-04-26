@@ -11,6 +11,7 @@ export default function RestaurantMenu() {
   }, []);
 
   const [resInfo, setResInfo] = useState(null);
+  const [openCategoryIndex, setOpenCategoryIndex] = useState(null);
   const { resId } = useParams();
 
   async function fetchMenu() {
@@ -61,7 +62,15 @@ export default function RestaurantMenu() {
         {/* Menu Sections */}
         <div className={styles.menuItems}>
           {cardsWithTitle?.map((section, index) => {
-            return <Category key={index} section={section} index={index} />;
+            return (
+              <Category
+                key={index}
+                section={section}
+                index={index}
+                openCategoryIndex={openCategoryIndex}
+                setOpenCategoryIndex={setOpenCategoryIndex}
+              />
+            );
           })}
         </div>
       </div>
