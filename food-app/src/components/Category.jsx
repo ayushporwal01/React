@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./category.module.css";
 import { ChevronUp, ChevronDown } from "react-feather";
+import Item from "./Item";
 
 export default function Category({
   section,
@@ -56,17 +57,14 @@ export default function Category({
         {/* Direct Items */}
         {!hasSubCategories &&
           isOpen &&
-          itemCards?.map((item) => {
-            return (
-              <div key={item?.card?.info?.id}>{item?.card?.info?.name}</div>
-            );
-          })}
+          itemCards?.map((item) => (
+            <Item key={item?.card?.info?.id} item={item} />
+          ))}
 
         {hasSubCategories &&
           categories.map((subCat, subIndex) => (
             <div
               key={subIndex}
-              className={styles.subCategory}
               className={`${styles.subCategory} ${OpenSubIndex === subIndex ? styles.open : ""}`}
             >
               {/* SubCategory Title with its itemCount */}
@@ -82,16 +80,9 @@ export default function Category({
               </h5>
 
               {OpenSubIndex == subIndex &&
-                subCat?.itemCards?.map((item) => {
-                  return (
-                    <div
-                      className={styles.subCategoryItems}
-                      key={item?.card?.info?.id}
-                    >
-                      {item?.card?.info?.name}
-                    </div>
-                  );
-                })}
+                subCat?.itemCards?.map((item) => (
+                  <Item key={item?.card?.info?.id} item={item} />
+                ))}
             </div>
           ))}
       </div>
