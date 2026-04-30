@@ -1,20 +1,77 @@
 .itemCard {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    align-items: center;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 2rem;
+}
+
+.itemCard:last-child {
+    border-bottom: none;
+}
+
+.itemLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.itemRight {
+    padding: 1rem;
+    position: relative;
 }
 
 .itemName {
     color: #484848;
+    font-size: 1.1rem;
 }
 
 .itemImg {
     width: 150px;
+    border-radius: 10px;
 }
 
 .description {
-    width: 400px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  width: 500px;
+
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  color: #666666;
+  font-size: 15px;
 }
+
+.cost {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rating {
+    color: #116649;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.addBtn {
+    padding: 6px 38px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #32ac59;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 32px;
+    bottom: 0;
+}
+
+.addBtn:hover {
+    background-color: #dfdfdf;
+}
+

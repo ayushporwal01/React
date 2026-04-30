@@ -5,7 +5,7 @@
 }
 
 .menu {
-    width: 50%;
+    width: 55%;
     border: 1px solid black;
     padding: 3rem;
 }
@@ -13,12 +13,17 @@
 .menuText {
     margin-top: 1rem;
     text-align: center;
+    font-size: 1.1rem;
 }
 
-.menuItems {
+.menuCategories {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 2rem;
+}
+
+.menuDetails > h1 {
+    font-size: 1.8rem;
 }
 

@@ -45,7 +45,7 @@ export default function RestaurantMenu() {
   return (
     <div className={styles.menuContainer}>
       <div className={styles.menu}>
-        <div className="menuDetails">
+        <div className={styles.menuDetails}>
           <h1>{name}</h1>
 
           <span className={styles.extraDetails}>
@@ -60,7 +60,7 @@ export default function RestaurantMenu() {
         <h4 className={styles.menuText}>Menu</h4>
 
         {/* Menu Sections */}
-        <div className={styles.menuItems}>
+        <div className={styles.menuCategories}>
           {cardsWithTitle?.map((section, index) => {
             return (
               <Category
