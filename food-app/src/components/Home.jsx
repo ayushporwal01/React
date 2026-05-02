@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import ItemFilter from "./ItemFilter";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 export default function Home() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
@@ -49,6 +50,14 @@ export default function Home() {
       setLoading(false);
     }
   }
+
+  const onlineStatus = useOnlineStatus();
+
+  useEffect(() => {
+    if(!onlineStatus) {
+      <h2>Looks like you're offline!! Please check your internet connection.</h2>
+    }
+  }, [])
 
   return (
     <div className={styles.body}>
