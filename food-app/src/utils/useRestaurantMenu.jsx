@@ -1,9 +1,9 @@
 import { MENU_URL } from "../utils/constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export default useRestaurantMenu = () => {
+export default function useRestaurantMenu(resId) {
   const [resInfo, setResInfo] = useState(null);
-  
+
   useEffect(() => {
     fetchMenu();
   }, []);
@@ -15,4 +15,6 @@ export default useRestaurantMenu = () => {
     console.log(json);
     setResInfo(json?.data);
   }
-};
+
+  return resInfo;
+}
