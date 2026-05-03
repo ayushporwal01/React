@@ -19,3 +19,9 @@
   - componentDidMount: Runs after component has been mounted.
   - componentDidUpdate: Runs after component value updated.
   - componentWillUnmount: Runs after component is unmounted.
+
+- Custom Hooks
+
+- Code Splitting / Dynamic Bundling / Chunking / Lazy Loading / On-Demand Loading / Dynamic Import
+
+- lazy(), import(), Suspense

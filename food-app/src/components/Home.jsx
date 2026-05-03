@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
 export default function Home() {
+  const [error, setError] = useState(null);
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [loading, setLoading] = useState(true);

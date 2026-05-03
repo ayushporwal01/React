@@ -9,7 +9,7 @@ import AppLayout from "./components/AppLayout";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { lazy, Suspense } from "react";
 
-const About = lazy("./components/About");
+const About = lazy(() => import("./components/About"));
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route
               path="about"
               element={
-                <Suspense>
+                <Suspense fallback={<h1>Loading...</h1>}>
                   <About />
                 </Suspense>
               }
