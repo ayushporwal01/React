@@ -1,12 +1,15 @@
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import About from "./components/About";
+// import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./components/Error";
 import AppLayout from "./components/AppLayout";
 import RestaurantMenu from "./components/RestaurantMenu";
+import { lazy, Suspense } from "react";
+
+const About = lazy("./components/About");
 
 function App() {
   return (
@@ -15,7 +18,14 @@ function App() {
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
+            <Route
+              path="about"
+              element={
+                <Suspense>
+                  <About />
+                </Suspense>
+              }
+            />
             <Route path="contact" element={<Contact />} />
             <Route path="restaurants/:resId" element={<RestaurantMenu />} />
           </Route>

@@ -12,7 +12,6 @@ export default function Home() {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetchData();
@@ -23,13 +22,9 @@ export default function Home() {
       setLoading(true);
       setError(null);
 
-      const response = await fetch(API_URL);
+      const data = await fetch(API_URL);
 
-      if (!response.ok) {
-        throw new Error(`HTTP error! ${response.status}`);
-      }
-
-      const json = await response.json();
+      const json = await data.json();
 
       const restaurants =
         json?.data?.cards
