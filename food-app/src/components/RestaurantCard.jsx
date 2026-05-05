@@ -1,4 +1,3 @@
-import styles from "./resCard.module.css";
 import { CDN_URL } from "../utils/constants";
 
 export default function RestaurantCard({ resData }) {
@@ -9,22 +8,22 @@ export default function RestaurantCard({ resData }) {
   const id = resData?.info?.cloudinaryImageId;
 
   return (
-    <div className={styles.resCard}>
-      <div className={styles.resImage}>
+    <div className="">
+      <div className="">
         <img src={CDN_URL + id} alt={name} />
       </div>
-      <div className={styles.resDetails}>
-        <h1 className={styles.resName}>{name}</h1>
+      <div className="">
+        <h1 className="">{name}</h1>
 
-        <span className={styles.extraDetails}>
-          <span className={styles.starIcon}>&#9733;</span>
-          <span className={styles.rating}>{avgRating}</span> &bull;
-          <span className={styles.deliveryTime}>{deliveryTime}</span>
+        <span className="">
+          <span className="">&#9733;</span>
+          <span className="">{avgRating}</span> &bull;
+          <span className="">{deliveryTime}</span>
         </span>
 
-        <div className={styles.moreDetails}>
-          <p className={styles.cuisine}>{cuisines.join(", ")}</p>
-          <p className={styles.costForTwo}>{costForTwo}</p>
+        <div className="">
+          <p className="">{cuisines.join(", ")}</p>
+          <p className="">{costForTwo}</p>
         </div>
       </div>
     </div>
