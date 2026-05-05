@@ -9,19 +9,17 @@ export default function Header() {
         src={LOGO_URL}
         alt="Namaste Food Logo"
       />
-      <div className="">
-        <ul className="flex gap-x-10 text-lg [&_li]:cursor-pointer">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </div>
+      <ul className="flex gap-x-10 text-lg [&_li]:cursor-pointer">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
     </div>
   );
 }

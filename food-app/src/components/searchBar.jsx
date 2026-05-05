@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styles from "./searchBar.module.css";
 
 export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
   const [searchText, setSearchText] = useState("");
@@ -11,9 +10,9 @@ export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
     setFilteredRestaurant(filteredList);
   }
   return (
-    <div className={styles.searchContainer}>
+    <div className="w-110 h-12 flex relative">
       <input
-        className={styles.searchBar}
+        className="border border-r-0 border-[#afafaf] flex-1 pl-4 rounded-sm"
         type="text"
         value={searchText}
         placeholder="Enter a Restaurant Name..."
@@ -24,7 +23,7 @@ export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
           }
         }}
       />
-      <button className={styles.searchBtn} onClick={searchFilter}>
+      <button className="px-4 py-2.5 border border-l-0 border-[#afafaf] rounded-sm rounded-l-none absolute right-0 bottom-0 top-0 cursor-pointer" onClick={searchFilter}>
         <i className="fa-solid fa-magnifying-glass"></i>
       </button>
     </div>
