@@ -1,13 +1,12 @@
-import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
-// import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./components/Error";
 import AppLayout from "./components/AppLayout";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { lazy, Suspense } from "react";
+import "./style.css";
 
 const About = lazy(() => import("./components/About"));
 

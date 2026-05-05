@@ -1,4 +1,3 @@
-import styles from "./home.module.css";
 import { API_URL } from "../utils/constants";
 import RestaurantCard from "./RestaurantCard";
 import SearchBar from "./SearchBar";
@@ -57,7 +56,7 @@ export default function Home() {
   }
 
   return (
-    <div className={styles.body}>
+    <div className="w-full flex flex-col items-center pt-15">
       <SearchBar
         listOfRestaurant={listOfRestaurant}
         setFilteredRestaurant={setFilteredRestaurant}
@@ -68,7 +67,7 @@ export default function Home() {
         setFilteredRestaurant={setFilteredRestaurant}
       />
 
-      <div className={styles.resContainer}>
+      <div className="">
         {loading ? (
           Array(8)
             .fill("")
