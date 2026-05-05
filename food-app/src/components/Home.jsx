@@ -67,7 +67,7 @@ export default function Home() {
         setFilteredRestaurant={setFilteredRestaurant}
       />
 
-      <div className="">
+      <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {loading ? (
           Array(8)
             .fill("")
