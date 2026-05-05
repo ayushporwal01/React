@@ -12,7 +12,7 @@ export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
   return (
     <div className="w-110 h-12 flex relative">
       <input
-        className="border border-r-0 border-[#afafaf] flex-1 pl-4 rounded-sm"
+        className="border border-r-0 border-[#afafaf] flex-1 pl-4 pr-13 rounded-sm focus:outline-none"
         type="text"
         value={searchText}
         placeholder="Enter a Restaurant Name..."
@@ -24,7 +24,7 @@ export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
         }}
       />
       <button className="px-4 py-2.5 border border-l-0 border-[#afafaf] rounded-sm rounded-l-none absolute right-0 bottom-0 top-0 cursor-pointer" onClick={searchFilter}>
-        <i className="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass text-[#7b7574]"></i>
       </button>
     </div>
   );
