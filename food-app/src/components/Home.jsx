@@ -63,7 +63,6 @@ export default function Home() {
         setFilteredRestaurant={setFilteredRestaurant}
       />
 
-      <SideBar />
       <div className="mt-18 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="w-fit">
           <ItemFilter
