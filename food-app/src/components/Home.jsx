@@ -79,7 +79,9 @@ export default function Home() {
           ) : error ? (
             <h2>Error: {error}</h2>
           ) : filteredRestaurant.length === 0 ? (
-            <p className={styles.noResFoundMsg}>No Restaurants found</p>
+            <p className="col-span-full flex justify-center items-center min-h-50 text-2xl font-semibold">
+              No Restaurants Found
+            </p>
           ) : (
             filteredRestaurant.map((res) => (
               <Link

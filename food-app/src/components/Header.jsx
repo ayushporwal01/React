@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu } from "react-feather";
 import SideBar from "./SideBar";
 import { useState } from "react";
+import { AnimatePresence } from "motion/react";
 
 export default function Header() {
   const navLinks = [
@@ -36,7 +37,11 @@ export default function Header() {
         <Menu size={35} />
       </button>
 
-      {isSidebarOpen && <SideBar navLinks={navLinks} toggleSidebar={toggleSidebar} />}
+      <AnimatePresence>
+        {isSidebarOpen && (
+          <SideBar navLinks={navLinks} toggleSidebar={toggleSidebar} />
+        )}
+      </AnimatePresence>
     </div>
   );
 }
