@@ -13,7 +13,7 @@ export default function AppLayout() {
       name: "Ayush Porwal",
     };
     setUserName(data.name);
-  });
+  }, []);
 
   return (
     <userContext.Provider value={{ loggedInUser: userName, setUserName }}>
