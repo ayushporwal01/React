@@ -2,14 +2,14 @@ import { useDispatch, useSelector } from "react-redux";
 import Item from "./Item";
 import { clearCart } from "../utils/cartSlice";
 
-const dispatch = useDispatch();
-
-const handleClearCart = () => (
-  dispatch(clearCart())
-)
-
 export default function Cart() {
   const cartItems = useSelector((store) => store.cart.items);
+
+  const dispatch = useDispatch();
+
+  const handleClearCart = () => {
+    dispatch(clearCart());
+  };
 
   return (
     <div className="mt-8 flex flex-col items-center">
@@ -20,7 +20,14 @@ export default function Cart() {
         ))}
       </div>
 
-      <button className="w-30 h-10 bg-black text-white text-xl rounded-md cursor-pointer" onClick={handleClearCart}>Clear Cart</button>
+      {(cartItems.length > 0) ? (
+        <button
+          className="w-30 h-10 bg-black text-white text-xl rounded-md mb-10 cursor-pointer"
+          onClick={handleClearCart}
+        >
+          Clear Cart
+        </button>
+      ) : <p className="text-xl font-semibold mt-50 text-gray-500">Your cart looks empty, add some delicious food to your cart.</p>}
     </div>
   );
 }
