@@ -1,17 +1,9 @@
-- CreateBrowserRouter
-- Routes
-- Route
-- Outlet
-- Link
-  - wrapper above anchor tag.
-  - doesn't reload the page.
+# Types Of Routing
 - Client Side Routing
 - Server Side Routing
 - Dynamic Routes
 
-- Class-Based Component 
-  - Props
-  - State
+# Class-Based Components
 
 # LifeCycle of a Component
 
