@@ -34,3 +34,4 @@
 - Installed Jest
 - Installed Babel Dependencies
 - Configure Babel
+- Configure Jest - npx jest --init
