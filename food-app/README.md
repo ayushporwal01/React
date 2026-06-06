@@ -35,4 +35,4 @@
 - Installed Babel Dependencies
 - Configure Babel
 - Configure Jest - npx create-jest
-- Install Jest-dom library
+- Install js-dom library
