@@ -18,5 +18,5 @@ test("Should render 2 input boxes on the Contact Component", () => {
   const inputBoxes = screen.getAllByRole("textbox");
 
   //Assertion
-  expect(inputBoxes).toBeInTheDocument();
+  expect(inputBoxes.length).toBe(2);
 });
