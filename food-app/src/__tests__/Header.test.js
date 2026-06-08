@@ -3,15 +3,18 @@ import Header from "../components/Header";
 import "@testing-library/jest-dom";
 import { Provider } from "react-redux";
 import appStore from "../utils/appStore";
+import { BrowserRouter } from "react-router-dom";
 
 it("Should render Header Component with a login button", () => {
-    render(
-    <Provider store={appStore}>
+  render(
+    <BrowserRouter>
+      <Provider store={appStore}>
         <Header />
-    </Provider>
-);
+      </Provider>
+    </BrowserRouter>,
+  );
 
-    const loginButton = screen.getByRole("button", {name: "Login"});
+  const loginButton = screen.getByRole("button", { name: "Login" });
 
-    expect(loginButton).toBeInTheDocument();
-})
+  expect(loginButton).toBeInTheDocument();
+});
