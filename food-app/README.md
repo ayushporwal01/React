@@ -36,6 +36,8 @@
 - Configure Babel
 - Configure Jest - npx create-jest
 - Install js-dom library
+- Install identity-obj-proxy - to help jest understand CSS imports
+- Configure identity-obj-proxy in jest.config.js
 - Intall @babel/preset-react - to make jsx work in test cases
 - Include @babel/preset-react inside babel config
 - Install @testing-library/jest-dom - for extra jest functions and features
