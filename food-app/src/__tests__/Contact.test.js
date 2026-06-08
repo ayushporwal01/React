@@ -20,3 +20,12 @@ test("Should render 2 input boxes on the Contact Component", () => {
   //Assertion
   expect(inputBoxes.length).toBe(2);
 });
+test("Should render a button on the Contact Component", () => {
+  render(<Contact />);
+
+  //Querying
+  const button = screen.getByText("Submit");
+
+  //Assertion
+  expect(button).toBeInTheDocument();
+});
