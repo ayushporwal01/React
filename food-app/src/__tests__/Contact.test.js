@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import Contact from "../components/Contact";
 import "@testing-library/jest-dom";
 
-test("Heading should render in Contact Component", () => {
+test("Should render heading on the Contact Component", () => {
   render(<Contact />);
     
   //Querying
@@ -11,7 +11,7 @@ test("Heading should render in Contact Component", () => {
   //Assertion
   expect(heading).toBeInTheDocument();
 });
-test("Heading should render in Contact Component", () => {
+test("Should render 2 input boxes on the Contact Component", () => {
   render(<Contact />);
 
   //Querying
