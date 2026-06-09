@@ -18,7 +18,7 @@ it("Should render Header Component with a login button", () => {
   expect(loginButton).toBeInTheDocument();
 });
 
-it("Should render Header Component with a Cart Items 0", () => {
+it("Should render Header Component with Cart Items 0", () => {
   render(
     <BrowserRouter>
       <Provider store={appStore}>
@@ -27,7 +27,21 @@ it("Should render Header Component with a Cart Items 0", () => {
     </BrowserRouter>,
   );
 
-  const cartItems = screen.getByText("Cart(0 items)");
+  const cartItems = screen.getByText("Cart (0)");
 
   expect(cartItems).toBeInTheDocument();
+});
+
+it("Should render Header Component with Cart", () => {
+  render(
+    <BrowserRouter>
+      <Provider store={appStore}>
+        <Header />
+      </Provider>
+    </BrowserRouter>,
+  );
+
+  const cart = screen.getByText(/Cart/); //Regex
+
+  expect(cart).toBeInTheDocument();
 });
