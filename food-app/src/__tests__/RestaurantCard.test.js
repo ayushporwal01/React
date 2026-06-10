@@ -10,3 +10,7 @@ it("Should render RestaurantCard with Data", () => {
 
   expect(name).toBeInTheDocument();
 });
+
+it("Should render RestaurantCard with PromotedLabel", () => {
+    
+})

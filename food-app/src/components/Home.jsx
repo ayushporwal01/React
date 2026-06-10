@@ -8,8 +8,11 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import SideBar from "./SideBar";
 import userContext from "../utils/userContext";
+import PromotedLabel from "./PromotedLabel";
 
 export default function Home() {
+  const RestaurantCardPromoted = PromotedLabel(RestaurantCard);
+
   const [error, setError] = useState(null);
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
@@ -101,7 +104,11 @@ export default function Home() {
                 to={"/restaurants/" + res?.info?.id}
                 className="block w-full h-full"
               >
-                <RestaurantCard resData={res} />
+                {res?.info?.promoted ? (
+                  <RestaurantCard resData={res} />
+                ) : (
+                  <RestaurantCardPromoted resData={res} />
+                )}
               </Link>
             ))
           )}
