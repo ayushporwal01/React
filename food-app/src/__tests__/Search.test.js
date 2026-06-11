@@ -23,11 +23,11 @@ it("Should render Home Component with Search", async () => {
   expect(searchBtn).toBeInTheDocument();
 });
 
-it("Should render Home Component With Restaurant Cards", async () => {
+it("Should Search ResList for pizza text input", async () => {
   setup();
 
   const cardsBeforeSearch = await screen.findAllByTestId("resCard");
-  expect(cardsBeforeSearch).toHaveLength(28);
+  expect(cardsBeforeSearch).toHaveLength(20);
 
   const searchBtn = screen.getByTestId("searchBtn");
   const searchInput = screen.getByTestId("searchInput");
@@ -35,6 +35,6 @@ it("Should render Home Component With Restaurant Cards", async () => {
   fireEvent.change(searchInput, { target: { value: "pizza" } });
   fireEvent.click(searchBtn);
 
-  const cardsAfterSearch = await screen.findAllByTestId("resCard");
-  expect(cardsAfterSearch).toHaveLength(2);
+  const cardAfterSearch = screen.getAllByTestId("resCard");
+  expect(cardAfterSearch).toHaveLength(2);
 });

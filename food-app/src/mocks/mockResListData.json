@@ -3,7 +3,7 @@
 "data": {
 "statusMessage": "done successfully",
 "pageOffset": {
-"nextOffset": "CJhlELQ4KID4z5Cyy/DjEzCnEzgB",
+"nextOffset": "CJhlELQ4KIDAraObz6TGTjCnEzgC",
 "widgetOffset": {
 "NewListingView_category_bar_chicletranking_TwoRows": "",
 "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -55,6 +55,29 @@
 "imageGridCards": {
 "info": [
 {
+"id": "750581",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+"text": "North Indian",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for north indian",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
 "id": "750591",
 "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
 "action": {
@@ -78,19 +101,19 @@
 }
 },
 {
-"id": "750229",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Poha.png",
+"id": "750585",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80373?collection_id=80373&tags=layout_CCS_Poha&type=rcv2",
-"text": "Poha",
+"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+"text": "South Indian",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for poha",
+"altText": "restaurants curated for south indian",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80373&tags=layout_CCS_Poha",
+"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -101,19 +124,19 @@
 }
 },
 {
-"id": "750643",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+"id": "750579",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
-"text": "Idli",
+"link": "https://www.swiggy.com/collections/83631?collection_id=83631&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
+"text": "Pizzas",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for idly",
+"altText": "restaurants curated for pizza",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+"entityId": "swiggy://collectionV2?collection_id=83631&tags=layout_CCS_Pizza&search_context=pizza",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -124,19 +147,65 @@
 }
 },
 {
-"id": "750228",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
+"id": "750589",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-"text": "Samosa",
+"link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+"text": "Burgers",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for samosa",
+"altText": "restaurants curated for burger",
 "altTextCta": "open"
 },
-"entityId": "80396",
+"entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "749772",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+"text": "Noodles",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for noodles",
+"altTextCta": "open"
+},
+"entityId": "80463",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "750107",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Desserts.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83661?collection_id=83661&search_context=desserts&tags=layout_CCS_Desserts&type=rcv2",
+"text": "Dessert",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for dessert",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83661&tags=layout_CCS_Desserts&search_context=desserts",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -170,19 +239,19 @@
 }
 },
 {
-"id": "750201",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+"id": "750587",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
-"text": "Paratha",
+"link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
+"text": "Chinese",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for paratha",
+"altText": "restaurant curated for chinese",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+"entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -216,19 +285,19 @@
 }
 },
 {
-"id": "750252",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/cb5669c8-d6f1-46ab-b24d-3da99b9fa32c_tea.png",
+"id": "750222",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80406?collection_id=80406&tags=layout_CCS_Tea&type=rcv2",
-"text": "Tea",
+"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
+"text": "Rolls",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for tea",
+"altText": "restaurants curated for roll",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80406&tags=layout_CCS_Tea",
+"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -239,88 +308,19 @@
 }
 },
 {
-"id": "749760",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
+"id": "750201",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80455?collection_id=80455&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
-"text": "Khichdi",
+"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+"text": "Paratha",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for khichdi",
+"altText": "restaurants curated for paratha",
 "altTextCta": "open"
 },
-"entityId": "80455",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750561",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/9a22cf0d-f44c-4345-a48d-29033aa19729_Vada.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80425?collection_id=80425&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-"text": "Vada",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurants curated for vada",
-"altTextCta": "open"
-},
-"entityId": "80425",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750639",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/f45b3545-7867-4144-b0c3-1a6ac930aeaa_Kachori.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80448?collection_id=80448&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-"text": "Kachori",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for kachori",
-"altTextCta": "open"
-},
-"entityId": "80448",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "749790",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
-"text": "Pakoda",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for pakoda",
-"altTextCta": "open"
-},
-"entityId": "80469",
+"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -354,6 +354,75 @@
 }
 },
 {
+"id": "750596",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+"text": "Ice Cream",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for icecream",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "750206",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+"text": "Pasta",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for pasta",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "749760",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80455?collection_id=80455&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
+"text": "Khichdi",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for khichdi",
+"altTextCta": "open"
+},
+"entityId": "80455",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
 "id": "749876",
 "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chole bhature.png",
 "action": {
@@ -377,19 +446,19 @@
 }
 },
 {
-"id": "750234",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/2b999748-b33c-4560-a422-e90f3e60a5fb_Poori1.png",
+"id": "750643",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80377?collection_id=80377&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-"text": "Poori",
+"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+"text": "Idli",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurant curated for poori",
+"altText": "restaurants curated for idly",
 "altTextCta": "open"
 },
-"entityId": "80377",
+"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -400,19 +469,19 @@
 }
 },
 {
-"id": "750118",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_dhokla.png",
+"id": "750248",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80422?collection_id=80422&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-"text": "Dhokla",
+"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+"text": "Shawarma",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for dhokla",
+"altText": "restaurant curated for shawarma",
 "altTextCta": "open"
 },
-"entityId": "80422",
+"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -423,88 +492,19 @@
 }
 },
 {
-"id": "750216",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
+"id": "2594473",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/cb5669c8-d6f1-46ab-b24d-3da99b9fa32c_waffle.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-"text": "Pav Bhaji",
+"link": "https://www.swiggy.com/collections/116178?collection_id=116178&tags=dessert&type=rcv2",
+"text": "Waffle",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurant curated for pav bhaji",
+"altText": "restaurants curated for waffle",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "749762",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/3f2c40d3-96c7-44ce-8b35-aef6ea746cdc_lassi.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80458?collection_id=80458&tags=layout_BAU_Contextual%2Classi&type=rcv2",
-"text": "Lassi",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for lassi",
-"altTextCta": "open"
-},
-"entityId": "80458",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750225",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
-"text": "Salad",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for salad",
-"altTextCta": "open"
-},
-"entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "745861",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
-"action": {
-"link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
-"text": "Shake",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurants curated for shakes",
-"altTextCta": "open"
-},
-"entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+"entityId": "116178",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -534,6 +534,29 @@
 "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.ImageInfoLayoutCard",
 "info": [
 {
+"id": "750581",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+"text": "North Indian",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for north indian",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
 "id": "750591",
 "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
 "action": {
@@ -557,19 +580,19 @@
 }
 },
 {
-"id": "750229",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Poha.png",
+"id": "750585",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80373?collection_id=80373&tags=layout_CCS_Poha&type=rcv2",
-"text": "Poha",
+"link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
+"text": "South Indian",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for poha",
+"altText": "restaurants curated for south indian",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80373&tags=layout_CCS_Poha",
+"entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -580,19 +603,19 @@
 }
 },
 {
-"id": "750643",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+"id": "750579",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
-"text": "Idli",
+"link": "https://www.swiggy.com/collections/83631?collection_id=83631&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
+"text": "Pizzas",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for idly",
+"altText": "restaurants curated for pizza",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+"entityId": "swiggy://collectionV2?collection_id=83631&tags=layout_CCS_Pizza&search_context=pizza",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -603,19 +626,65 @@
 }
 },
 {
-"id": "750228",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
+"id": "750589",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
-"text": "Samosa",
+"link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+"text": "Burgers",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for samosa",
+"altText": "restaurants curated for burger",
 "altTextCta": "open"
 },
-"entityId": "80396",
+"entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "749772",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+"text": "Noodles",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for noodles",
+"altTextCta": "open"
+},
+"entityId": "80463",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "750107",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Desserts.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83661?collection_id=83661&search_context=desserts&tags=layout_CCS_Desserts&type=rcv2",
+"text": "Dessert",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for dessert",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83661&tags=layout_CCS_Desserts&search_context=desserts",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -649,19 +718,19 @@
 }
 },
 {
-"id": "750201",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+"id": "750587",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
-"text": "Paratha",
+"link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
+"text": "Chinese",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for paratha",
+"altText": "restaurant curated for chinese",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+"entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -695,19 +764,19 @@
 }
 },
 {
-"id": "750252",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/cb5669c8-d6f1-46ab-b24d-3da99b9fa32c_tea.png",
+"id": "750222",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80406?collection_id=80406&tags=layout_CCS_Tea&type=rcv2",
-"text": "Tea",
+"link": "https://www.swiggy.com/collections/83669?collection_id=83669&tags=layout_CCS_Rolls&type=rcv2",
+"text": "Rolls",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for tea",
+"altText": "restaurants curated for roll",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80406&tags=layout_CCS_Tea",
+"entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -718,88 +787,19 @@
 }
 },
 {
-"id": "749760",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
+"id": "750201",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80455?collection_id=80455&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
-"text": "Khichdi",
+"link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+"text": "Paratha",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for khichdi",
+"altText": "restaurants curated for paratha",
 "altTextCta": "open"
 },
-"entityId": "80455",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750561",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/9a22cf0d-f44c-4345-a48d-29033aa19729_Vada.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80425?collection_id=80425&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-"text": "Vada",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurants curated for vada",
-"altTextCta": "open"
-},
-"entityId": "80425",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750639",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/f45b3545-7867-4144-b0c3-1a6ac930aeaa_Kachori.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80448?collection_id=80448&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-"text": "Kachori",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for kachori",
-"altTextCta": "open"
-},
-"entityId": "80448",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "749790",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
-"text": "Pakoda",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for pakoda",
-"altTextCta": "open"
-},
-"entityId": "80469",
+"entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -833,6 +833,75 @@
 }
 },
 {
+"id": "750596",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+"action": {
+"link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+"text": "Ice Cream",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for icecream",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "750206",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+"text": "Pasta",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurant curated for pasta",
+"altTextCta": "open"
+},
+"entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
+"id": "749760",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
+"action": {
+"link": "https://www.swiggy.com/collections/80455?collection_id=80455&tags=layout_BAU_Contextual%2Ckhichdi&type=rcv2",
+"text": "Khichdi",
+"type": "WEBLINK"
+},
+"entityType": "BANNER",
+"accessibility": {
+"altText": "restaurants curated for khichdi",
+"altTextCta": "open"
+},
+"entityId": "80455",
+"frequencyCapping": {},
+"externalMarketing": {},
+"overlayIcon": {},
+"footerOverlay": {
+"title": {},
+"subtitle": {},
+"cta": {}
+}
+},
+{
 "id": "749876",
 "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chole bhature.png",
 "action": {
@@ -856,19 +925,19 @@
 }
 },
 {
-"id": "750234",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/2b999748-b33c-4560-a422-e90f3e60a5fb_Poori1.png",
+"id": "750643",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80377?collection_id=80377&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-"text": "Poori",
+"link": "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+"text": "Idli",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurant curated for poori",
+"altText": "restaurants curated for idly",
 "altTextCta": "open"
 },
-"entityId": "80377",
+"entityId": "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -879,19 +948,19 @@
 }
 },
 {
-"id": "750118",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_dhokla.png",
+"id": "750248",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80422?collection_id=80422&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-"text": "Dhokla",
+"link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+"text": "Shawarma",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurants curated for dhokla",
+"altText": "restaurant curated for shawarma",
 "altTextCta": "open"
 },
-"entityId": "80422",
+"entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -902,88 +971,19 @@
 }
 },
 {
-"id": "750216",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
+"id": "2594473",
+"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/cb5669c8-d6f1-46ab-b24d-3da99b9fa32c_waffle.png",
 "action": {
-"link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-"text": "Pav Bhaji",
+"link": "https://www.swiggy.com/collections/116178?collection_id=116178&tags=dessert&type=rcv2",
+"text": "Waffle",
 "type": "WEBLINK"
 },
 "entityType": "BANNER",
 "accessibility": {
-"altText": "restaurant curated for pav bhaji",
+"altText": "restaurants curated for waffle",
 "altTextCta": "open"
 },
-"entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "749762",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/3f2c40d3-96c7-44ce-8b35-aef6ea746cdc_lassi.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80458?collection_id=80458&tags=layout_BAU_Contextual%2Classi&type=rcv2",
-"text": "Lassi",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for lassi",
-"altTextCta": "open"
-},
-"entityId": "80458",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "750225",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
-"action": {
-"link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
-"text": "Salad",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurant curated for salad",
-"altTextCta": "open"
-},
-"entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
-"frequencyCapping": {},
-"externalMarketing": {},
-"overlayIcon": {},
-"footerOverlay": {
-"title": {},
-"subtitle": {},
-"cta": {}
-}
-},
-{
-"id": "745861",
-"imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
-"action": {
-"link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
-"text": "Shake",
-"type": "WEBLINK"
-},
-"entityType": "BANNER",
-"accessibility": {
-"altText": "restaurants curated for shakes",
-"altTextCta": "open"
-},
-"entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+"entityId": "116178",
 "frequencyCapping": {},
 "externalMarketing": {},
 "overlayIcon": {},
@@ -1069,6 +1069,177 @@
 "restaurants": [
 {
 "info": {
+"id": "695745",
+"name": "Pizza Hut",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/12/646c488b-92bf-4696-9052-36a4765d6f2c_695745.JPG",
+"locality": "Housing Board Colony",
+"areaName": "Bairagarh",
+"costForTwo": "₹350 for two",
+"cuisines": [
+"Pizzas"
+],
+"avgRating": 4.1,
+"parentId": "721",
+"avgRatingString": "4.1",
+"totalRatingsString": "3.0K+",
+"sla": {
+"deliveryTime": 28,
+"lastMileTravel": 4.7,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "4.7 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"description": "Top-rated for Pizza, based on user votes."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Pizza, based on user votes.",
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹527"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/pizza-hut-housing-board-colony-bairagarh-rest695745",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "295098",
+"name": "Barbeque Nation",
+"cloudinaryImageId": "g0ze1qyvzsg4zrxwibzr",
+"locality": "Bawadiya Kalan",
+"areaName": "Gulmohar Colony",
+"costForTwo": "₹600 for two",
+"cuisines": [
+"North Indian",
+"Barbecue",
+"Kebabs",
+"Biryani",
+"Street Food",
+"Snacks"
+],
+"avgRating": 4,
+"parentId": "2438",
+"avgRatingString": "4.0",
+"totalRatingsString": "2.3K+",
+"sla": {
+"deliveryTime": 48,
+"lastMileTravel": 11.6,
+"serviceability": "SERVICEABLE",
+"slaString": "45-55 mins",
+"lastMileTravelString": "11.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:30:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "newg.png",
+"description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
+"imageId": "newg.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹319"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/barbeque-nation-bawadiya-kalan-gulmohar-colony-rest295098",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
 "id": "101059",
 "name": "Manohar Dairy and Restaurant",
 "cloudinaryImageId": "yhnrql8wxgu8sgqjczos",
@@ -1093,10 +1264,10 @@
 "avgRatingString": "4.7",
 "totalRatingsString": "17K+",
 "sla": {
-"deliveryTime": 26,
+"deliveryTime": 24,
 "lastMileTravel": 2.4,
 "serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
+"slaString": "20-25 mins",
 "lastMileTravelString": "2.4 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
@@ -1106,6 +1277,10 @@
 },
 "badges": {
 "imageBadges": [
+{
+"imageId": "android/static-assets/icons/big_rx.png",
+"description": "bolt!"
+},
 {
 "imageId": "brand_cards/Badges%202026/26_Best%20in%20North%20Indian2026.png",
 "description": "Top-rated for North Indian, based on user votes."
@@ -1135,6 +1310,12 @@
 "entityBadges": {
 "imageBased": {
 "badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "android/static-assets/icons/big_rx.png"
+}
+},
 {
 "attributes": {
 "description": "Top-rated for North Indian, based on user votes.",
@@ -1194,7 +1375,7 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
 "link": "https://www.swiggy.com/city/bhopal/manohar-dairy-and-restaurant-hamidia-road-rest101059",
@@ -1203,41 +1384,43 @@
 },
 {
 "info": {
-"id": "92816",
-"name": "Idli & More",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/6/41a474db-9b64-47d5-99db-f9cfd1fe3cfc_92816.jpg",
-"locality": "Arera colony",
-"areaName": "Arera Colony",
-"costForTwo": "₹300 for two",
+"id": "324628",
+"name": "Sharma Bhojnalaya - Bus Stand Jawahar Chowk",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/26/18a701e6-58d5-47ea-b38b-3126edcedf50_324628.jpg",
+"locality": "Jawahar Chowk",
+"areaName": "Jawahar Chowk",
+"costForTwo": "₹200 for two",
 "cuisines": [
-"South Indian",
-"Indian",
-"Snacks",
+"Thalis",
+"North Indian",
 "Fast Food",
+"Chinese",
+"Indian",
+"dessert",
 "Beverages"
 ],
-"avgRating": 4.6,
+"avgRating": 4.1,
 "veg": true,
-"parentId": "371274",
-"avgRatingString": "4.6",
-"totalRatingsString": "13K+",
+"parentId": "469434",
+"avgRatingString": "4.1",
+"totalRatingsString": "5.5K+",
 "sla": {
-"deliveryTime": 36,
-"lastMileTravel": 7.3,
+"deliveryTime": 31,
+"lastMileTravel": 3.9,
 "serviceability": "SERVICEABLE",
-"slaString": "35-45 mins",
-"lastMileTravelString": "7.3 km",
+"slaString": "30-40 mins",
+"lastMileTravelString": "3.9 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2026-06-11 23:00:00",
+"nextCloseTime": "2026-06-11 23:45:00",
 "opened": true
 },
 "badges": {
 "imageBadges": [
 {
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
-"description": "Top-rated for South Indian, based on user votes."
+"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+"description": "Exclusively available on Swiggy — you won't find it elsewhere."
 },
 {
 "imageId": "v1695133679/badges/Pure_Veg111.png",
@@ -1253,8 +1436,8 @@
 "badgeObject": [
 {
 "attributes": {
-"description": "Top-rated for South Indian, based on user votes.",
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
+"description": "Exclusively available on Swiggy — you won't find it elsewhere.",
+"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
 "theme": ""
 }
 },
@@ -1272,8 +1455,8 @@
 }
 },
 "aggregatedDiscountInfoV3": {
-"header": "70% OFF",
-"subHeader": "UPTO ₹130"
+"header": "ITEMS",
+"subHeader": "AT ₹75"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1287,19 +1470,16 @@
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "3.9",
-"ratingCount": "1.1K+"
-},
-"source": "GOOGLE",
-"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+"rating": "--"
+}
 },
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/idli-and-more-arera-colony-rest92816",
+"link": "https://www.swiggy.com/city/bhopal/sharma-bhojnalaya-bus-stand-jawahar-chowk-jawahar-chowk-rest324628",
 "type": "WEBLINK"
 }
 },
@@ -1324,10 +1504,10 @@
 "avgRatingString": "4.4",
 "totalRatingsString": "2.4K+",
 "sla": {
-"deliveryTime": 36,
+"deliveryTime": 24,
 "lastMileTravel": 2.3,
 "serviceability": "SERVICEABLE",
-"slaString": "35-40 mins",
+"slaString": "20-25 mins",
 "lastMileTravelString": "2.3 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
@@ -1415,7 +1595,7 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
 "link": "https://www.swiggy.com/city/bhopal/sharma-and-vishnu-fast-food-hamidia-road-manohar-dairy-hamidia-road-rest613953",
@@ -1424,585 +1604,32 @@
 },
 {
 "info": {
-"id": "348082",
-"name": "Starbucks Coffee",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/5/4/b6f917ed-e071-4258-8d41-67b758df46fe_348082.JPG",
-"locality": "Arera Colony",
-"areaName": "Arera Colony",
-"costForTwo": "₹400 for two",
-"cuisines": [
-"Beverages",
-"Cafe",
-"Snacks",
-"Desserts",
-"Bakery",
-"Ice Cream"
-],
-"avgRating": 4.3,
-"parentId": "195515",
-"avgRatingString": "4.3",
-"totalRatingsString": "2.2K+",
-"sla": {
-"deliveryTime": 35,
-"lastMileTravel": 7.8,
-"serviceability": "SERVICEABLE",
-"slaString": "30-35 mins",
-"lastMileTravelString": "7.8 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png",
-"description": "Top-rated vegetarian cafes, based on user votes."
-},
-{
-"imageId": "newg.png",
-"description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated vegetarian cafes, based on user votes.",
-"imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
-"imageId": "newg.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "₹75 OFF",
-"subHeader": "ABOVE ₹169",
-"discountTag": "FLAT DEAL"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "4.5",
-"ratingCount": "1.5K+"
-},
-"source": "GOOGLE",
-"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/starbucks-coffee-arera-colony-rest348082",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "703152",
-"name": "Indian Coffee House",
-"cloudinaryImageId": "d088b6ece631fd100ead7b0cdaf93047",
-"locality": "Batallion Hall and Cafeteria",
-"areaName": "Police Headquarters",
-"costForTwo": "₹250 for two",
-"cuisines": [
-"North Indian",
-"Thalis",
-"Indian",
-"Fast Food",
-"Chinese"
-],
-"avgRating": 4.3,
-"parentId": "106448",
-"avgRatingString": "4.3",
-"totalRatingsString": "506",
-"sla": {
-"deliveryTime": 32,
-"lastMileTravel": 1.9,
-"serviceability": "SERVICEABLE",
-"slaString": "30-40 mins",
-"lastMileTravelString": "1.9 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 22:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "android/static-assets/icons/big_rx.png",
-"description": "bolt!"
-}
-]
-},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "bolt!",
-"imageId": "android/static-assets/icons/big_rx.png"
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/indian-coffee-house-batallion-hall-and-cafeteria-police-headquarters-rest703152",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "263733",
-"name": "Veg Meals By LunchBox",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/15/be61f710-cdb5-426b-aba8-6331f6db694e_263733.JPG",
-"locality": "Chetak Bridge",
-"areaName": "Maharana Pratap Nagar",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Biryani",
-"North Indian",
-"Desserts",
-"Beverages"
-],
-"avgRating": 4.3,
-"veg": true,
-"parentId": "21938",
-"avgRatingString": "4.3",
-"totalRatingsString": "515",
-"sla": {
-"deliveryTime": 36,
-"lastMileTravel": 5,
-"serviceability": "SERVICEABLE",
-"slaString": "35-40 mins",
-"lastMileTravelString": "5.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹99"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/veg-meals-by-lunchbox-chetak-bridge-maharana-pratap-nagar-rest263733",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "386982",
-"name": "Manohar Dairy",
-"cloudinaryImageId": "onrthurhbk4ztdnbbpwh",
-"areaName": "10 No Market",
-"costForTwo": "₹350 for two",
-"cuisines": [
-"Chaat",
-"Snacks",
-"Sweets",
-"Desserts",
-"Beverages",
-"Street Food",
-"Bakery",
-"South Indian",
-"pav bhaji",
-"Chinese"
-],
-"avgRating": 4.7,
-"veg": true,
-"parentId": "250194",
-"avgRatingString": "4.7",
-"totalRatingsString": "9.0K+",
-"sla": {
-"deliveryTime": 43,
-"lastMileTravel": 7.5,
-"serviceability": "SERVICEABLE",
-"slaString": "40-50 mins",
-"lastMileTravelString": "7.5 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 22:15:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
-"description": "Top-rated for South Indian, based on user votes."
-},
-{
-"imageId": "newg.png",
-"description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
-},
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated for South Indian, based on user votes.",
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
-"imageId": "newg.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/manohar-dairy-10-no-market-rest386982",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "94611",
-"name": "Subway",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/5bb08fef-b788-4049-8bdd-e75d17bf4304_94611.JPG",
-"locality": "Maharana Pratap Nagar",
-"areaName": "Maharana Pratap Nagar",
-"costForTwo": "₹300 for two",
-"cuisines": [
-"sandwich",
-"Salads",
-"wrap",
-"Healthy Food"
-],
-"avgRating": 4.2,
-"parentId": "2",
-"avgRatingString": "4.2",
-"totalRatingsString": "2.1K+",
-"sla": {
-"deliveryTime": 46,
-"lastMileTravel": 4.9,
-"serviceability": "SERVICEABLE",
-"slaString": "45-55 mins",
-"lastMileTravelString": "4.9 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
-"description": "Meals with high protein, low calorie and no added sugar"
-}
-]
-},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Meals with high protein, low calorie and no added sugar",
-"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "4.1",
-"ratingCount": "3.1K+"
-},
-"source": "GOOGLE",
-"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/subway-maharana-pratap-nagar-rest94611",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "697182",
-"name": "Burger King",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/cada592c-14d5-46c7-ae89-5a41f113004b_697182.jpg",
-"locality": "Indrapuri",
-"areaName": "Bhopal",
-"costForTwo": "₹350 for two",
-"cuisines": [
-"Burgers",
-"American"
-],
-"avgRating": 4.2,
-"parentId": "166",
-"avgRatingString": "4.2",
-"totalRatingsString": "12K+",
-"sla": {
-"deliveryTime": 65,
-"lastMileTravel": 6.7,
-"serviceability": "SERVICEABLE",
-"slaString": "65-75 mins",
-"lastMileTravelString": "6.7 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 10:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
-"description": "Top-rated for Burger, based on user votes."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated for Burger, based on user votes.",
-"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹179"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/burger-king-indrapuri-bhopal-rest697182",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "78537",
+"id": "108004",
 "name": "Sagar Gaire",
-"cloudinaryImageId": "pvzeuuzpybyjnt1cxpz4",
-"locality": "Chetak Bridge",
-"areaName": "ISBT",
+"cloudinaryImageId": "eanb1laoe96xa3xr4nuq",
+"locality": "Kohefiza",
+"areaName": "Jahangirabad",
 "costForTwo": "₹300 for two",
 "cuisines": [
-"South Indian",
-"Chinese"
+"Snacks",
+"Chinese",
+"South Indian"
 ],
-"avgRating": 4.3,
+"avgRating": 4.5,
 "veg": true,
 "parentId": "7049",
-"avgRatingString": "4.3",
-"totalRatingsString": "10K+",
+"avgRatingString": "4.5",
+"totalRatingsString": "11K+",
 "sla": {
-"deliveryTime": 54,
-"lastMileTravel": 6.2,
+"deliveryTime": 27,
+"lastMileTravel": 3,
 "serviceability": "SERVICEABLE",
-"slaString": "50-60 mins",
-"lastMileTravelString": "6.2 km",
+"slaString": "25-30 mins",
+"lastMileTravelString": "3.0 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2026-06-11 23:45:00",
+"nextCloseTime": "2026-06-11 22:45:00",
 "opened": true
 },
 "badges": {
@@ -2067,7 +1694,7 @@
 },
 "aggregatedDiscountInfoV3": {
 "header": "ITEMS",
-"subHeader": "AT ₹57"
+"subHeader": "AT ₹144"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2081,513 +1708,8 @@
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/sagar-gaire-chetak-bridge-isbt-rest78537",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "79807",
-"name": "Sweet Truth - Cake and Desserts",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/24/74984158-bf63-4431-9d7c-fd587b9672fd_79807.JPG",
-"locality": "Chetak Bridge",
-"areaName": "Maharana Pratap Nagar",
-"costForTwo": "₹450 for two",
-"cuisines": [
-"Desserts",
-"Ice Cream",
-"Bakery",
-"Beverages"
-],
-"avgRating": 4.3,
-"parentId": "4444",
-"avgRatingString": "4.3",
-"totalRatingsString": "2.8K+",
-"sla": {
-"deliveryTime": 28,
-"lastMileTravel": 5,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "5.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹79"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/sweet-truth-cake-and-desserts-chetak-bridge-maharana-pratap-nagar-rest79807",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "566245",
-"name": "Faasos Signature Wraps & Rolls",
-"cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
-"locality": "Courtyard By Marriot",
-"areaName": "Maharana Pratap Nagar",
-"costForTwo": "₹350 for two",
-"cuisines": [
-"Fast Food",
-"Snacks",
-"North Indian",
-"Desserts",
-"Beverages"
-],
-"avgRating": 4.5,
-"parentId": "340366",
-"avgRatingString": "4.5",
-"totalRatingsString": "273",
-"sla": {
-"deliveryTime": 44,
-"lastMileTravel": 5,
-"serviceability": "SERVICEABLE",
-"slaString": "40-45 mins",
-"lastMileTravelString": "5.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "brand_cards/Badges%202026/75_Best%20in%20Rolls2026.png",
-"description": "Top-rated for Rolls, based on user votes."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated for Rolls, based on user votes.",
-"imageId": "brand_cards/Badges%202026/75_Best%20in%20Rolls2026.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹149"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/faasos-signature-wraps-and-rolls-courtyard-by-marriot-maharana-pratap-nagar-rest566245",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "79803",
-"name": "Faasos - Wraps, Rolls & Shawarma",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/28/8513f205-71c1-4c04-b009-98ab9a7cf144_79803.JPG",
-"locality": "Courtyard By Marriot",
-"areaName": "Maharana Pratap Nagar",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Kebabs",
-"Fast Food",
-"Snacks",
-"American",
-"Healthy Food",
-"Desserts",
-"Beverages"
-],
-"avgRating": 4.4,
-"parentId": "21809",
-"avgRatingString": "4.4",
-"totalRatingsString": "14K+",
-"sla": {
-"deliveryTime": 36,
-"lastMileTravel": 5,
-"serviceability": "SERVICEABLE",
-"slaString": "35-45 mins",
-"lastMileTravelString": "5.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "brand_cards/Badges%202026/75_Best%20in%20Rolls2026.png",
-"description": "Top-rated for Rolls, based on user votes."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated for Rolls, based on user votes.",
-"imageId": "brand_cards/Badges%202026/75_Best%20in%20Rolls2026.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹79"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/faasos-wraps-rolls-and-shawarma-courtyard-by-marriot-maharana-pratap-nagar-rest79803",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "212617",
-"name": "Narmada Canteen",
-"cloudinaryImageId": "tm4c8xbu3mapzcmy0gb6",
-"locality": "Narmada Trauma Centre",
-"areaName": "Arera Colony",
-"costForTwo": "₹200 for two",
-"cuisines": [
-"Snacks",
-"Maharashtrian",
-"Sweets",
-"Thalis",
-"Indian",
-"North Indian",
-"Beverages"
-],
-"avgRating": 4.1,
-"veg": true,
-"parentId": "144266",
-"avgRatingString": "4.1",
-"totalRatingsString": "3.1K+",
-"sla": {
-"deliveryTime": 55,
-"lastMileTravel": 7,
-"serviceability": "SERVICEABLE",
-"slaString": "55-65 mins",
-"lastMileTravelString": "7.0 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:50:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/narmada-canteen-narmada-trauma-centre-arera-colony-rest212617",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "101065",
-"name": "Chhappan Bhog",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/1/8/e0c1c9bf-0397-43e2-9f10-4a60ec7bd204_101065 (1).jpg",
-"locality": "New Friend Society",
-"areaName": "Kolar Road",
-"costForTwo": "₹300 for two",
-"cuisines": [
-"Sweets",
-"Snacks",
-"Chinese",
-"South Indian"
-],
-"avgRating": 4.4,
-"parentId": "60153",
-"avgRatingString": "4.4",
-"totalRatingsString": "6.4K+",
-"sla": {
-"deliveryTime": 45,
-"lastMileTravel": 8.5,
-"serviceability": "SERVICEABLE",
-"slaString": "45-55 mins",
-"lastMileTravelString": "8.5 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/chhappan-bhog-new-friend-society-kolar-road-rest101065",
-"type": "WEBLINK"
-}
-},
-{
-"info": {
-"id": "201422",
-"name": "Pa Se Paratha",
-"cloudinaryImageId": "sfx4aeyzne0p0u58jftb",
-"locality": "TT Nagar",
-"areaName": "TT Nagar",
-"costForTwo": "₹100 for two",
-"cuisines": [
-"Indian",
-"Punjabi",
-"North Indian"
-],
-"avgRating": 4.5,
-"veg": true,
-"parentId": "153412",
-"avgRatingString": "4.5",
-"totalRatingsString": "1.7K+",
-"sla": {
-"deliveryTime": 32,
-"lastMileTravel": 3.6,
-"serviceability": "SERVICEABLE",
-"slaString": "30-35 mins",
-"lastMileTravelString": "3.6 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹119"
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "4.3",
-"ratingCount": "517"
+"rating": "4.1",
+"ratingCount": "4.5K+"
 },
 "source": "GOOGLE",
 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -2595,42 +1717,134 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/pa-se-paratha-tt-nagar-rest201422",
+"link": "https://www.swiggy.com/city/bhopal/sagar-gaire-kohefiza-jahangirabad-rest108004",
 "type": "WEBLINK"
 }
 },
 {
 "info": {
-"id": "199332",
-"name": "Paratha Junction By Afs",
-"cloudinaryImageId": "mrl7kvuyumxns5lznbba",
-"locality": "Saket Nagar",
-"areaName": "Saket Nagar",
-"costForTwo": "₹200 for two",
+"id": "109939",
+"name": "Zam Zam Fast Food",
+"cloudinaryImageId": "kuisp5xx9tcutesp33yf",
+"locality": "Peer Gate Area",
+"areaName": "Hamidia Road",
+"costForTwo": "₹250 for two",
 "cuisines": [
-"Maharashtrian",
-"Thalis",
+"Mughlai",
 "Indian",
-"Punjabi"
+"Chinese",
+"Fast Food"
 ],
-"avgRating": 4.2,
-"veg": true,
-"parentId": "612749",
-"avgRatingString": "4.2",
-"totalRatingsString": "4.1K+",
+"avgRating": 4.1,
+"parentId": "17529",
+"avgRatingString": "4.1",
+"totalRatingsString": "50K+",
 "sla": {
-"deliveryTime": 60,
-"lastMileTravel": 9.1,
+"deliveryTime": 30,
+"lastMileTravel": 2.1,
 "serviceability": "SERVICEABLE",
-"slaString": "55-65 mins",
-"lastMileTravelString": "9.1 km",
+"slaString": "25-30 mins",
+"lastMileTravelString": "2.1 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2026-06-12 02:00:00",
+"nextCloseTime": "2026-06-12 01:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "android/static-assets/icons/big_rx.png",
+"description": "bolt!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "android/static-assets/icons/big_rx.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹95"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.1",
+"ratingCount": "16K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/zam-zam-fast-food-peer-gate-area-hamidia-road-rest109939",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "312786",
+"name": "Ganesham Fast Food",
+"cloudinaryImageId": "ybbwkjnc5kdc2kihwsxo",
+"areaName": "New Market",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Chinese",
+"South Indian",
+"American",
+"Italian",
+"Pizzas",
+"Pastas",
+"Fast Food",
+"Snacks",
+"Beverages"
+],
+"avgRating": 4.2,
+"veg": true,
+"parentId": "7247",
+"avgRatingString": "4.2",
+"totalRatingsString": "3.9K+",
+"sla": {
+"deliveryTime": 33,
+"lastMileTravel": 3,
+"serviceability": "SERVICEABLE",
+"slaString": "30-40 mins",
+"lastMileTravelString": "3.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
 "opened": true
 },
 "badges": {
@@ -2638,13 +1852,6 @@
 {
 "imageId": "v1695133679/badges/Pure_Veg111.png",
 "description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-],
-"textExtendedBadges": [
-{
-"iconId": "Akash/Listing%20badge.png",
-"shortDescription": "Price Match Promise",
-"fontColor": "#7E808C"
 }
 ]
 },
@@ -2664,23 +1871,12 @@
 ]
 },
 "textBased": {},
-"textExtendedBadges": {
-"badgeObject": [
-{
-"attributes": {
-"description": "",
-"fontColor": "#7E808C",
-"iconId": "Akash/Listing%20badge.png",
-"shortDescription": "Price Match Promise"
-}
-}
-]
-}
+"textExtendedBadges": {}
 }
 },
 "aggregatedDiscountInfoV3": {
 "header": "ITEMS",
-"subHeader": "AT ₹75"
+"subHeader": "AT ₹89"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2700,37 +1896,214 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/paratha-junction-by-afs-saket-nagar-rest199332",
+"link": "https://www.swiggy.com/city/bhopal/ganesham-fast-food-new-market-rest312786",
 "type": "WEBLINK"
 }
 },
 {
 "info": {
-"id": "593426",
-"name": "Bhopal Bakehouse And Cafe",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/10/340065ff-69a8-4e1c-802d-960e9edc4376_593426 (1).jpg",
-"locality": "Arera Colony",
-"areaName": "Arera Colony",
-"costForTwo": "₹350 for two",
+"id": "703152",
+"name": "Indian Coffee House",
+"cloudinaryImageId": "d088b6ece631fd100ead7b0cdaf93047",
+"locality": "Batallion Hall and Cafeteria",
+"areaName": "Police Headquarters",
+"costForTwo": "₹250 for two",
 "cuisines": [
-"Bakery",
-"Italian",
-"Burgers",
-"Pizzas"
+"North Indian",
+"Thalis",
+"Indian",
+"Fast Food",
+"Chinese"
 ],
 "avgRating": 4.3,
-"parentId": "420534",
+"parentId": "106448",
 "avgRatingString": "4.3",
-"totalRatingsString": "1.0K+",
+"totalRatingsString": "506",
 "sla": {
-"deliveryTime": 48,
-"lastMileTravel": 7.8,
+"deliveryTime": 31,
+"lastMileTravel": 1.9,
 "serviceability": "SERVICEABLE",
-"slaString": "45-50 mins",
-"lastMileTravelString": "7.8 km",
+"slaString": "30-40 mins",
+"lastMileTravelString": "1.9 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 22:30:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "android/static-assets/icons/big_rx.png",
+"description": "bolt!"
+}
+]
+},
+"isOpen": true,
+"aggregatedDiscountInfoV2": {},
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "android/static-assets/icons/big_rx.png"
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/indian-coffee-house-batallion-hall-and-cafeteria-police-headquarters-rest703152",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "79599",
+"name": "Sharma & Vishnu Fast Food - Platinum Plaza",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/17/f30a346e-5ff6-47a1-8c3a-b3271164863a_79599.jpg",
+"locality": "TT Nagar",
+"areaName": "TT Nagar",
+"costForTwo": "₹300 for two",
+"cuisines": [
+"Chinese",
+"South Indian",
+"Snacks",
+"Fast Food",
+"Beverages",
+"Pastas",
+"Pizzas",
+"Thalis"
+],
+"avgRating": 4.3,
+"veg": true,
+"parentId": "599684",
+"avgRatingString": "4.3",
+"totalRatingsString": "8.9K+",
+"sla": {
+"deliveryTime": 36,
+"lastMileTravel": 4.6,
+"serviceability": "SERVICEABLE",
+"slaString": "35-45 mins",
+"lastMileTravelString": "4.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-12 00:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "50% OFF"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.2",
+"ratingCount": "2.4K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/sharma-and-vishnu-fast-food-platinum-plaza-tt-nagar-rest79599",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "794529",
+"name": "La Pino'z Pizza",
+"cloudinaryImageId": "e5f54df4ed8bac458b801ede76ee37d0",
+"locality": "BHEL",
+"areaName": "BHEL",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Pizzas",
+"Pastas",
+"Italian",
+"Desserts",
+"Beverages"
+],
+"avgRating": 3.8,
+"parentId": "4961",
+"avgRatingString": "3.8",
+"totalRatingsString": "2.4K+",
+"sla": {
+"deliveryTime": 36,
+"lastMileTravel": 6.6,
+"serviceability": "SERVICEABLE",
+"slaString": "35-45 mins",
+"lastMileTravelString": "6.6 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
@@ -2739,6 +2112,216 @@
 },
 "badges": {
 "imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"description": "Top-rated for Pizza, based on user votes."
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Pizza, based on user votes.",
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"theme": ""
+}
+},
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹63"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.8",
+"ratingCount": "1.3K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/la-pinoz-pizza-bhel-rest794529",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "94606",
+"name": "The Belgian Waffle Co.",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/e00351ad-b05d-41f4-8474-032510979376_94606.JPG",
+"locality": "Maharana Pratap Nagar",
+"areaName": "Maharana Pratap Nagar",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Waffle",
+"Desserts",
+"Ice Cream",
+"Beverages"
+],
+"avgRating": 4.6,
+"veg": true,
+"parentId": "2233",
+"avgRatingString": "4.6",
+"totalRatingsString": "2.4K+",
+"sla": {
+"deliveryTime": 45,
+"lastMileTravel": 4.9,
+"serviceability": "SERVICEABLE",
+"slaString": "40-50 mins",
+"lastMileTravelString": "4.9 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 18:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/43_Best%20in%20Cakes%20&%20Desserts2026.png",
+"description": "Top-rated for Cakes & Desserts, based on user votes."
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Cakes & Desserts, based on user votes.",
+"imageId": "brand_cards/Badges%202026/43_Best%20in%20Cakes%20&%20Desserts2026.png",
+"theme": ""
+}
+},
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "20% OFF",
+"subHeader": "UPTO ₹50"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.2",
+"ratingCount": "153"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/the-belgian-waffle-co-maharana-pratap-nagar-rest94606",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "557933",
+"name": "Bake N Shake",
+"cloudinaryImageId": "ogej1e2xxku5bhfafdcw",
+"locality": "TT Nagar",
+"areaName": "TT Nagar",
+"costForTwo": "₹350 for two",
+"cuisines": [
+"Beverages",
+"Snacks",
+"Chinese",
+"Fast Food",
+"Bakery",
+"Desserts",
+"Continental",
+"Pizzas",
+"Pastas"
+],
+"avgRating": 4.5,
+"parentId": "7053",
+"avgRatingString": "4.5",
+"totalRatingsString": "1.4K+",
+"sla": {
+"deliveryTime": 30,
+"lastMileTravel": 3,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "3.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/43_Best%20in%20Cakes%20&%20Desserts2026.png",
+"description": "Top-rated for Cakes & Desserts, based on user votes."
+},
 {
 "imageId": "newg.png",
 "description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
@@ -2753,6 +2336,13 @@
 "badgeObject": [
 {
 "attributes": {
+"description": "Top-rated for Cakes & Desserts, based on user votes.",
+"imageId": "brand_cards/Badges%202026/43_Best%20in%20Cakes%20&%20Desserts2026.png",
+"theme": ""
+}
+},
+{
+"attributes": {
 "description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
 "imageId": "newg.png",
 "theme": ""
@@ -2765,8 +2355,8 @@
 }
 },
 "aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹99"
+"header": "20% OFF",
+"subHeader": "UPTO ₹50"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2780,8 +2370,8 @@
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "4.0",
-"ratingCount": "1.6K+"
+"rating": "4.3",
+"ratingCount": "3.0K+"
 },
 "source": "GOOGLE",
 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -2789,41 +2379,41 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/bhopal-bakehouse-and-cafe-arera-colony-rest593426",
+"link": "https://www.swiggy.com/city/bhopal/bake-n-shake-tt-nagar-rest557933",
 "type": "WEBLINK"
 }
 },
 {
 "info": {
-"id": "116920",
-"name": "Aesthetic's Nutrition - Healthy Food, Simplified",
-"cloudinaryImageId": "qlsey3m0huj3sq8envid",
-"locality": "Gulmohar Colony",
-"areaName": "Gulmohar Colony",
+"id": "94611",
+"name": "Subway",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/5bb08fef-b788-4049-8bdd-e75d17bf4304_94611.JPG",
+"locality": "Maharana Pratap Nagar",
+"areaName": "Maharana Pratap Nagar",
 "costForTwo": "₹300 for two",
 "cuisines": [
-"Healthy Food",
+"sandwich",
 "Salads",
-"Continental",
-"Beverages"
+"wrap",
+"Healthy Food"
 ],
-"avgRating": 4.5,
-"parentId": "474892",
-"avgRatingString": "4.5",
-"totalRatingsString": "3.3K+",
+"avgRating": 4.2,
+"parentId": "2",
+"avgRatingString": "4.2",
+"totalRatingsString": "2.1K+",
 "sla": {
-"deliveryTime": 75,
-"lastMileTravel": 10.5,
+"deliveryTime": 48,
+"lastMileTravel": 4.9,
 "serviceability": "SERVICEABLE",
-"slaString": "75-85 mins",
-"lastMileTravelString": "10.5 km",
+"slaString": "45-55 mins",
+"lastMileTravelString": "4.9 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2026-06-11 10:00:00",
+"nextCloseTime": "2026-06-11 23:59:00",
 "opened": true
 },
 "badges": {
@@ -2831,14 +2421,11 @@
 {
 "imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
 "description": "Meals with high protein, low calorie and no added sugar"
-},
-{
-"imageId": "brand_cards/Badges%202026/55_Best%20in%20EatRight2026.png",
-"description": "Top-rated for EatRight, based on user votes."
 }
 ]
 },
 "isOpen": true,
+"aggregatedDiscountInfoV2": {},
 "type": "F",
 "badgesV2": {
 "entityBadges": {
@@ -2850,23 +2437,12 @@
 "imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
 "theme": ""
 }
-},
-{
-"attributes": {
-"description": "Top-rated for EatRight, based on user votes.",
-"imageId": "brand_cards/Badges%202026/55_Best%20in%20EatRight2026.png",
-"theme": ""
-}
 }
 ]
 },
 "textBased": {},
 "textExtendedBadges": {}
 }
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF",
-"subHeader": "UPTO ₹100"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2880,8 +2456,8 @@
 "restaurantOfferPresentationInfo": {},
 "externalRatings": {
 "aggregatedRating": {
-"rating": "3.8",
-"ratingCount": "65"
+"rating": "4.1",
+"ratingCount": "3.1K+"
 },
 "source": "GOOGLE",
 "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -2889,52 +2465,47 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/aesthetics-nutrition-healthy-food-simplified-gulmohar-colony-rest116920",
+"link": "https://www.swiggy.com/city/bhopal/subway-maharana-pratap-nagar-rest94611",
 "type": "WEBLINK"
 }
 },
 {
 "info": {
-"id": "525430",
-"name": "Fresqo Healthy Breakfast And Juices",
-"cloudinaryImageId": "yisxs0sqkqz1bxx6lehi",
-"locality": "Bawadiya Kalan",
-"areaName": "Kolar",
-"costForTwo": "₹200 for two",
+"id": "508470",
+"name": "KFC",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/4/11/da167080-c83e-49f5-9178-073791e3a133_508470.JPG",
+"locality": "Housing board Colony",
+"areaName": "Kohefiza",
+"costForTwo": "₹400 for two",
 "cuisines": [
-"Healthy Food",
-"Salads",
-"Continental",
-"Beverages"
+"Burgers",
+"Fast Food",
+"Rolls & Wraps"
 ],
-"avgRating": 4.4,
-"parentId": "313628",
-"avgRatingString": "4.4",
-"totalRatingsString": "595",
+"avgRating": 4.2,
+"parentId": "547",
+"avgRatingString": "4.2",
+"totalRatingsString": "2.1K+",
 "sla": {
-"deliveryTime": 46,
-"lastMileTravel": 11.6,
+"deliveryTime": 24,
+"lastMileTravel": 4.6,
 "serviceability": "SERVICEABLE",
-"slaString": "45-50 mins",
-"lastMileTravelString": "11.6 km",
+"slaString": "20-25 mins",
+"lastMileTravelString": "4.6 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
 "availability": {
-"nextCloseTime": "2026-06-11 23:00:00",
+"nextCloseTime": "2026-06-11 23:59:00",
 "opened": true
 },
 "badges": {
 "imageBadges": [
 {
-"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
-"description": "Meals with high protein, low calorie and no added sugar"
-},
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
+"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+"description": "Top-rated for Burger, based on user votes."
 }
 ]
 },
@@ -2946,15 +2517,8 @@
 "badgeObject": [
 {
 "attributes": {
-"description": "Meals with high protein, low calorie and no added sugar",
-"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Top-rated for Burger, based on user votes.",
+"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
 "theme": ""
 }
 }
@@ -2966,7 +2530,7 @@
 },
 "aggregatedDiscountInfoV3": {
 "header": "ITEMS",
-"subHeader": "AT ₹119"
+"subHeader": "AT ₹179"
 },
 "differentiatedUi": {
 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2986,10 +2550,459 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
-"link": "https://www.swiggy.com/city/bhopal/fresqo-healthy-breakfast-and-juices-bawadiya-kalan-kolar-rest525430",
+"link": "https://www.swiggy.com/city/bhopal/kfc-housing-board-colony-kohefiza-rest508470",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "84400",
+"name": "Burger King",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/7c067f62-8938-4abb-8937-272b77002c29_84400.jpg",
+"locality": "Maharana Pratap Nagar",
+"areaName": "Db City Mall",
+"costForTwo": "₹350 for two",
+"cuisines": [
+"Burgers",
+"American"
+],
+"avgRating": 4.1,
+"parentId": "166",
+"avgRatingString": "4.1",
+"totalRatingsString": "27K+",
+"sla": {
+"deliveryTime": 49,
+"lastMileTravel": 4.9,
+"serviceability": "SERVICEABLE",
+"slaString": "45-55 mins",
+"lastMileTravelString": "4.9 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-12 04:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+"description": "Top-rated for Burger, based on user votes."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Burger, based on user votes.",
+"imageId": "brand_cards/Badges%202026/41_Best%20in%20Burger2026.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹159"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.3",
+"ratingCount": "3.3K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/burger-king-maharana-pratap-nagar-db-city-mall-rest84400",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "106673",
+"name": "Bhopal Udipi Restaurant",
+"cloudinaryImageId": "zjvbljmeakcsffkky6hp",
+"locality": "Dwarka Nagar",
+"areaName": "Dwarka Nagar",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"South Indian",
+"Chinese",
+"Fast Food",
+"Street Food",
+"North Indian"
+],
+"avgRating": 4.1,
+"veg": true,
+"parentId": "45152",
+"avgRatingString": "4.1",
+"totalRatingsString": "13K+",
+"sla": {
+"deliveryTime": 32,
+"lastMileTravel": 4.3,
+"serviceability": "SERVICEABLE",
+"slaString": "30-40 mins",
+"lastMileTravelString": "4.3 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹69"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.1",
+"ratingCount": "1.3K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/bhopal-udipi-restaurant-dwarka-nagar-rest106673",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "112218",
+"name": "Shri Gurukripa Restaurant",
+"cloudinaryImageId": "oaubrofxww2jr9sogrdl",
+"locality": "Apoorti Mall",
+"areaName": "Indrapuri",
+"costForTwo": "₹300 for two",
+"cuisines": [
+"Indian",
+"Thalis",
+"Fast Food",
+"Beverages"
+],
+"avgRating": 4.1,
+"veg": true,
+"parentId": "186460",
+"avgRatingString": "4.1",
+"totalRatingsString": "3.2K+",
+"sla": {
+"deliveryTime": 35,
+"lastMileTravel": 6.9,
+"serviceability": "SERVICEABLE",
+"slaString": "35-40 mins",
+"lastMileTravelString": "6.9 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "30% OFF",
+"subHeader": "UPTO ₹75"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/shri-gurukripa-restaurant-apoorti-mall-indrapuri-rest112218",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "79893",
+"name": "Natural Ice Cream",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/21/144f686e-493b-4139-9219-e6d8d3e4b7ae_79893.jpg",
+"locality": "Maharana Pratap Nagar",
+"areaName": "Maharana Pratap Nagar",
+"costForTwo": "₹150 for two",
+"cuisines": [
+"Ice Cream",
+"Desserts"
+],
+"avgRating": 4.7,
+"parentId": "2093",
+"avgRatingString": "4.7",
+"totalRatingsString": "5.7K+",
+"sla": {
+"deliveryTime": 32,
+"lastMileTravel": 5,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "5.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "30% OFF",
+"subHeader": "UPTO ₹60"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.5",
+"ratingCount": "5.0K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/natural-ice-cream-maharana-pratap-nagar-rest79893",
+"type": "WEBLINK"
+}
+},
+{
+"info": {
+"id": "663033",
+"name": "Milan Sweets and Namkeen",
+"cloudinaryImageId": "17a2271a1deada78448b95b33544f8ec",
+"areaName": "MP Nagar",
+"costForTwo": "₹300 for two",
+"cuisines": [
+"Sweets",
+"Beverages",
+"Desserts",
+"Chaat",
+"South Indian"
+],
+"avgRating": 4.4,
+"veg": true,
+"parentId": "136135",
+"avgRatingString": "4.4",
+"totalRatingsString": "3.7K+",
+"sla": {
+"deliveryTime": 35,
+"lastMileTravel": 5.7,
+"serviceability": "SERVICEABLE",
+"slaString": "30-40 mins",
+"lastMileTravelString": "5.7 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 22:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Rxawards/_CATEGORY-Mithai.png",
+"description": "Top-rated for Mithai, based on user votes."
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "Serves only 100% vegetarian food, with no non-veg items."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Mithai, based on user votes.",
+"imageId": "Rxawards/_CATEGORY-Mithai.png",
+"theme": ""
+}
+},
+{
+"attributes": {
+"description": "Serves only 100% vegetarian food, with no non-veg items.",
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "50% OFF"
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/milan-sweets-and-namkeen-mp-nagar-rest663033",
 "type": "WEBLINK"
 }
 }
@@ -3072,6 +3085,644 @@
 {
 "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
 "info": {
+"id": "920945",
+"name": "Pizza Hut",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/12/0bc87d14-5599-4538-823a-2d06873a799a_920945.JPG",
+"locality": "New Market",
+"areaName": "TT Nagar",
+"costForTwo": "₹350 for two",
+"cuisines": [
+"Pizzas"
+],
+"avgRating": 4.2,
+"parentId": "721",
+"avgRatingString": "4.2",
+"totalRatingsString": "2.8K+",
+"sla": {
+"deliveryTime": 31,
+"lastMileTravel": 3,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "3.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-12 05:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"description": "Top-rated for Pizza, based on user votes."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Pizza, based on user votes.",
+"imageId": "brand_cards/Badges%202026/72_Best%20in%20Pizza2026.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹527"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.9",
+"ratingCount": "1.5K+"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/pizza-hut-new-market-tt-nagar-rest920945",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "952001",
+"name": "Burger Farm",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/10/b2994fe5-cfad-43e3-b25e-c69c08f711a5_952001.JPG",
+"locality": "E4 ARERA COLONY",
+"areaName": "E4 ARERA COLONY",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"American"
+],
+"avgRating": 4.5,
+"parentId": "4660",
+"avgRatingString": "4.5",
+"totalRatingsString": "1.5K+",
+"sla": {
+"deliveryTime": 42,
+"lastMileTravel": 7.6,
+"serviceability": "SERVICEABLE",
+"slaString": "40-45 mins",
+"lastMileTravelString": "7.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-12 03:00:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹129"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/burger-farm-e4-arera-colony-rest952001",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1224933",
+"name": "Chinese Wok",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/8/a3152212-0c67-4ce2-b5ae-9c9518da14ce_1224933.jpg",
+"locality": "Rani Kamlapati (Habibganj) Railway Station",
+"areaName": "Bansal Mall",
+"costForTwo": "₹250 for two",
+"cuisines": [
+"Chinese",
+"Asian",
+"Tibetan",
+"Desserts"
+],
+"avgRating": 4.4,
+"parentId": "61955",
+"avgRatingString": "4.4",
+"totalRatingsString": "297",
+"sla": {
+"deliveryTime": 54,
+"lastMileTravel": 7.3,
+"serviceability": "SERVICEABLE",
+"slaString": "50-60 mins",
+"lastMileTravelString": "7.3 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-12 01:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "brand_cards/Badges%202026/123_Best%20in%20Newcomer2026.png",
+"description": "Top-rated for Newcomer, based on user votes."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Top-rated for Newcomer, based on user votes.",
+"imageId": "brand_cards/Badges%202026/123_Best%20in%20Newcomer2026.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "70% OFF",
+"subHeader": "UPTO ₹140"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/chinese-wok-rani-kamlapati-habibganj-railway-station-bansal-mall-rest1224933",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "295098",
+"name": "Barbeque Nation",
+"cloudinaryImageId": "g0ze1qyvzsg4zrxwibzr",
+"locality": "Bawadiya Kalan",
+"areaName": "Gulmohar Colony",
+"costForTwo": "₹600 for two",
+"cuisines": [
+"North Indian",
+"Barbecue",
+"Kebabs",
+"Biryani",
+"Street Food",
+"Snacks"
+],
+"avgRating": 4,
+"parentId": "2438",
+"avgRatingString": "4.0",
+"totalRatingsString": "2.3K+",
+"sla": {
+"deliveryTime": 48,
+"lastMileTravel": 11.6,
+"serviceability": "SERVICEABLE",
+"slaString": "45-55 mins",
+"lastMileTravelString": "11.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:30:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "newg.png",
+"description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
+"imageId": "newg.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹319"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/barbeque-nation-bawadiya-kalan-gulmohar-colony-rest295098",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1054352",
+"name": "Dabba & Co.",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/19/fd9f762b-1c2d-4317-bbef-d1472b267648_1054352.jpg",
+"locality": "Housing Board Colony",
+"areaName": "Kohefiza",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Home Food",
+"Indian",
+"Thalis"
+],
+"avgRating": 4.2,
+"parentId": "612560",
+"avgRatingString": "4.2",
+"totalRatingsString": "306",
+"sla": {
+"deliveryTime": 23,
+"lastMileTravel": 4.6,
+"serviceability": "SERVICEABLE",
+"slaString": "20-25 mins",
+"lastMileTravelString": "4.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+"description": "Meals with high protein, low calorie and no added sugar"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Meals with high protein, low calorie and no added sugar",
+"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/dabba-and-co-housing-board-colony-kohefiza-rest1054352",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1030985",
+"name": "Thalaiva Biryani",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/9/66904f66-ea67-4785-af4e-56583df798dd_1030985.JPG",
+"locality": "Housing Board Colony",
+"areaName": "Kohefiza",
+"costForTwo": "₹400 for two",
+"cuisines": [
+"Biryani",
+"Mughlai",
+"Lucknowi",
+"Hyderabadi",
+"Kebabs",
+"Desserts",
+"Beverages"
+],
+"avgRating": 4.7,
+"parentId": "582792",
+"avgRatingString": "4.7",
+"totalRatingsString": "299",
+"sla": {
+"deliveryTime": 27,
+"lastMileTravel": 4.6,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "4.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
+"opened": true
+},
+"badges": {},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹289"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/thalaiva-biryani-housing-board-colony-kohefiza-rest1030985",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "1054008",
+"name": "Truth Bowl",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/2/17b8892a-f780-4c63-a55d-5fe2b7e07720_1054008.JPG",
+"locality": "Housing Board Colony",
+"areaName": "Kohefiza",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"North Indian",
+"High Protein",
+"Biryani"
+],
+"avgRating": 4.3,
+"parentId": "612552",
+"avgRatingString": "4.3",
+"totalRatingsString": "60",
+"sla": {
+"deliveryTime": 33,
+"lastMileTravel": 4.6,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "4.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2026-06-11 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+"description": "Meals with high protein, low calorie and no added sugar"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"description": "Meals with high protein, low calorie and no added sugar",
+"imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+"theme": ""
+}
+}
+]
+},
+"textBased": {},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹169"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
+},
+"cta": {
+"link": "https://www.swiggy.com/city/bhopal/truth-bowl-housing-board-colony-kohefiza-rest1054008",
+"text": "RESTAURANT_MENU",
+"type": "WEBLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+},
+{
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
 "id": "101059",
 "name": "Manohar Dairy and Restaurant",
 "cloudinaryImageId": "yhnrql8wxgu8sgqjczos",
@@ -3096,10 +3747,10 @@
 "avgRatingString": "4.7",
 "totalRatingsString": "17K+",
 "sla": {
-"deliveryTime": 26,
+"deliveryTime": 24,
 "lastMileTravel": 2.4,
 "serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
+"slaString": "20-25 mins",
 "lastMileTravelString": "2.4 km",
 "iconType": "ICON_TYPE_EMPTY"
 },
@@ -3109,6 +3760,10 @@
 },
 "badges": {
 "imageBadges": [
+{
+"imageId": "android/static-assets/icons/big_rx.png",
+"description": "bolt!"
+},
 {
 "imageId": "brand_cards/Badges%202026/26_Best%20in%20North%20Indian2026.png",
 "description": "Top-rated for North Indian, based on user votes."
@@ -3138,6 +3793,12 @@
 "entityBadges": {
 "imageBased": {
 "badgeObject": [
+{
+"attributes": {
+"description": "bolt!",
+"imageId": "android/static-assets/icons/big_rx.png"
+}
+},
 {
 "attributes": {
 "description": "Top-rated for North Indian, based on user votes.",
@@ -3204,691 +3865,10 @@
 "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
 },
 "analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
+"context": "seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5"
 },
 "cta": {
 "link": "https://www.swiggy.com/city/bhopal/manohar-dairy-and-restaurant-hamidia-road-rest101059",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "92816",
-"name": "Idli & More",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/6/41a474db-9b64-47d5-99db-f9cfd1fe3cfc_92816.jpg",
-"locality": "Arera colony",
-"areaName": "Arera Colony",
-"costForTwo": "₹300 for two",
-"cuisines": [
-"South Indian",
-"Indian",
-"Snacks",
-"Fast Food",
-"Beverages"
-],
-"avgRating": 4.6,
-"veg": true,
-"parentId": "371274",
-"avgRatingString": "4.6",
-"totalRatingsString": "13K+",
-"sla": {
-"deliveryTime": 36,
-"lastMileTravel": 7.3,
-"serviceability": "SERVICEABLE",
-"slaString": "35-45 mins",
-"lastMileTravelString": "7.3 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:00:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
-"description": "Top-rated for South Indian, based on user votes."
-},
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Top-rated for South Indian, based on user votes.",
-"imageId": "brand_cards/Badges%202026/32_Best%20in%20South%20Indian2026.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "70% OFF",
-"subHeader": "UPTO ₹130"
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "3.9",
-"ratingCount": "1.1K+"
-},
-"source": "GOOGLE",
-"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/idli-and-more-arera-colony-rest92816",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "613953",
-"name": "Sharma & Vishnu Fast Food - Hamidia Road",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/17/5697054d-380a-4c96-8f07-a10d07c5e3f8_613953.jpg",
-"locality": "Manohar Dairy",
-"areaName": "Hamidia Road",
-"costForTwo": "₹300 for two",
-"cuisines": [
-"Indian",
-"Snacks",
-"Mughlai",
-"Beverages",
-"Fast Food"
-],
-"avgRating": 4.4,
-"veg": true,
-"parentId": "182026",
-"avgRatingString": "4.4",
-"totalRatingsString": "2.4K+",
-"sla": {
-"deliveryTime": 36,
-"lastMileTravel": 2.3,
-"serviceability": "SERVICEABLE",
-"slaString": "35-40 mins",
-"lastMileTravelString": "2.3 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "android/static-assets/icons/big_rx.png",
-"description": "bolt!"
-},
-{
-"imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
-"description": "Top-rated for Bolt, based on user votes."
-},
-{
-"imageId": "brand_cards/Badges%202026/46_Best%20in%20Chinese2026.png",
-"description": "Top-rated for Chinese, based on user votes."
-},
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "bolt!",
-"imageId": "android/static-assets/icons/big_rx.png"
-}
-},
-{
-"attributes": {
-"description": "Top-rated for Bolt, based on user votes.",
-"imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Top-rated for Chinese, based on user votes.",
-"imageId": "brand_cards/Badges%202026/46_Best%20in%20Chinese2026.png",
-"theme": ""
-}
-},
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF"
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/sharma-and-vishnu-fast-food-hamidia-road-manohar-dairy-hamidia-road-rest613953",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "1049908",
-"name": "Naadbramha Idli",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/21/ad2acf4c-b8f5-415a-a90e-5939d8e70fc6_1049908.jpg",
-"locality": "MP Nagar",
-"areaName": "MP Nagar",
-"costForTwo": "₹149 for two",
-"cuisines": [
-"South Indian"
-],
-"avgRating": 3.7,
-"veg": true,
-"parentId": "251339",
-"avgRatingString": "3.7",
-"totalRatingsString": "95",
-"sla": {
-"deliveryTime": 30,
-"lastMileTravel": 5.8,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "5.8 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 21:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "ITEMS",
-"subHeader": "AT ₹59"
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/naadbramha-idli-mp-nagar-rest1049908",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "703152",
-"name": "Indian Coffee House",
-"cloudinaryImageId": "d088b6ece631fd100ead7b0cdaf93047",
-"locality": "Batallion Hall and Cafeteria",
-"areaName": "Police Headquarters",
-"costForTwo": "₹250 for two",
-"cuisines": [
-"North Indian",
-"Thalis",
-"Indian",
-"Fast Food",
-"Chinese"
-],
-"avgRating": 4.3,
-"parentId": "106448",
-"avgRatingString": "4.3",
-"totalRatingsString": "506",
-"sla": {
-"deliveryTime": 32,
-"lastMileTravel": 1.9,
-"serviceability": "SERVICEABLE",
-"slaString": "30-40 mins",
-"lastMileTravelString": "1.9 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 22:30:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "android/static-assets/icons/big_rx.png",
-"description": "bolt!"
-}
-]
-},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "bolt!",
-"imageId": "android/static-assets/icons/big_rx.png"
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/indian-coffee-house-batallion-hall-and-cafeteria-police-headquarters-rest703152",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "1289096",
-"name": "maa ki rasoi",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/12/17/d0f42cbe-dd03-4fa2-9821-0c0b99c85265_1289096.jpg",
-"locality": "Jahangirabad",
-"areaName": "Jahangirabad",
-"costForTwo": "₹250 for two",
-"cuisines": [
-"Chinese",
-"Biryani",
-"South Indian",
-"Thalis",
-"Indian",
-"Snacks",
-"North Indian"
-],
-"veg": true,
-"parentId": "4107",
-"avgRatingString": "NEW",
-"sla": {
-"deliveryTime": 36,
-"lastMileTravel": 2.9,
-"serviceability": "SERVICEABLE",
-"slaString": "35-40 mins",
-"lastMileTravelString": "2.9 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 22:00:00",
-"opened": true
-},
-"badges": {},
-"isOpen": true,
-"aggregatedDiscountInfoV2": {},
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"isNewlyOnboarded": true,
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/maa-ki-rasoi-jahangirabad-rest1289096",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "1347787",
-"name": "The Cheesecake Club by Sweet Truth",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/16/81232957-cb32-4b09-931c-05fba9a74179_1347787.JPG",
-"locality": "Housing Board Colony",
-"areaName": "Kohefiza",
-"costForTwo": "₹450 for two",
-"cuisines": [
-"Cakes & Pastries",
-"Desserts",
-"Bakery"
-],
-"parentId": "766831",
-"avgRatingString": "NEW",
-"sla": {
-"deliveryTime": 27,
-"lastMileTravel": 4.6,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "4.6 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF",
-"subHeader": "UPTO ₹100"
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"isNewlyOnboarded": true,
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/the-cheesecake-club-by-sweet-truth-housing-board-colony-kohefiza-rest1347787",
-"text": "RESTAURANT_MENU",
-"type": "WEBLINK"
-},
-"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-},
-{
-"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-"info": {
-"id": "976536",
-"name": "Veg Meals By LunchBox",
-"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/15/3af03e98-d366-4d29-9c6f-918da73cda3b_976536.JPG",
-"locality": "Housing Board Colony",
-"areaName": "Kohefiza",
-"costForTwo": "₹400 for two",
-"cuisines": [
-"Pizzas",
-"Italian",
-"Desserts",
-"Beverages"
-],
-"avgRating": 4.3,
-"veg": true,
-"parentId": "21938",
-"avgRatingString": "4.3",
-"totalRatingsString": "45",
-"sla": {
-"deliveryTime": 29,
-"lastMileTravel": 4.6,
-"serviceability": "SERVICEABLE",
-"slaString": "25-30 mins",
-"lastMileTravelString": "4.6 km",
-"iconType": "ICON_TYPE_EMPTY"
-},
-"availability": {
-"nextCloseTime": "2026-06-11 23:59:00",
-"opened": true
-},
-"badges": {
-"imageBadges": [
-{
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"description": "Serves only 100% vegetarian food, with no non-veg items."
-}
-]
-},
-"isOpen": true,
-"type": "F",
-"badgesV2": {
-"entityBadges": {
-"imageBased": {
-"badgeObject": [
-{
-"attributes": {
-"description": "Serves only 100% vegetarian food, with no non-veg items.",
-"imageId": "v1695133679/badges/Pure_Veg111.png",
-"theme": ""
-}
-}
-]
-},
-"textBased": {},
-"textExtendedBadges": {}
-}
-},
-"aggregatedDiscountInfoV3": {
-"header": "50% OFF",
-"subHeader": "UPTO ₹100"
-},
-"orderabilityCommunication": {
-"title": {},
-"subTitle": {},
-"message": {},
-"customIcon": {}
-},
-"differentiatedUi": {
-"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-"differentiatedUiMediaDetails": {
-"mediaType": "ADS_MEDIA_ENUM_IMAGE",
-"lottie": {},
-"video": {}
-}
-},
-"reviewsSummary": {},
-"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-"restaurantOfferPresentationInfo": {},
-"externalRatings": {
-"aggregatedRating": {
-"rating": "--"
-}
-},
-"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-},
-"analytics": {
-"context": "seo-data-853e5bc5-086f-4a79-a93b-299d019496eb"
-},
-"cta": {
-"link": "https://www.swiggy.com/city/bhopal/veg-meals-by-lunchbox-housing-board-colony-kohefiza-rest976536",
 "text": "RESTAURANT_MENU",
 "type": "WEBLINK"
 },
@@ -6978,7 +6958,7 @@
 "lat": "23.25050",
 "lng": "77.40650",
 "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-"gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-853e5bc5-086f-4a79-a93b-299d019496eb\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
+"gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-5d58159f-b409-4982-a4e9-5ef5133df1c5\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
 "id": "meta_data",
 "metaInfo": {
 "pageType": "FOOD_HOME_PAGE",
@@ -7006,8 +6986,8 @@
 "cacheExpiryTime": 240,
 "nextFetch": 1
 },
-"tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODExNTI3MDQsImlhdCI6MTc4MTE0OTEwNCwic2Vzc2lvbl9kYXRhIjoialdQZGVXTTFzZUZQU3A5UWplQk5WLytHU3JkQzJvWVFrbmFLZ0lmQW0xUVM3SVVuaU14OUxzYUNLclFLMkJFQ1J4RnYvSHNTVFFHRFo1Ry8relBDRkJYYWxVSHdUV2l0cHIrZnQwTFh2cnl2ZmxLdVFEcURKSTZ5Z1I4YTRwYzFITGNJZThkZ3BMdEFXUkFGNGdJcnZmTmZzV1NlK3UzVkMvY0MvbDh2Q0RWSXVaMnhvQmlEZGxOM0JvTWxrbWVzWDdNeWZHeG9YVTdzdGhnd1BzbEJ3UT09Iiwic2lkIjoicnV4Y2JiMzQ4ZjktNjljNy00YTIzLThjNzctMDViZGIwMGQ2Iiwic3ViIjoiZmQwZTFlNjItNzM5Yy00Yjk0LTk2OGQtZjIxOWUyYWJiMzc3IiwidXNlcl9pZCI6IjAifQ.grWhhHD7VjVy7ZI8Wq_g_WVc5nIGQ7fUzuByokKEZa0",
-"sid": "ruxcbb348f9-69c7-4a23-8c77-05bdb00d6",
+"tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODExNjg5NDAsImlhdCI6MTc4MTE2NTM0MCwic2Vzc2lvbl9kYXRhIjoiNzVuZ2RFRGtDWS90TmlkNjhsYzlmT2RaSk0ycGxXWlo0aitqZUVFR1lmeTNQakNFNzJIbCt6cHcwZkF0VnFSdy9WMHBHU3BvWUErYi9ZQVhNZmRKTmVJTFMyQ05KYk9XeGt3L3hrcVJQMnRmaDIzQWE1UGhEZGYxYTQ1UVRBWXJVZ0tLVmtuejFBa2srQzRqYmpIZWpGZU5oNmJwblBMb2o3R2JiTUVkRXpwTTFEci8zRUVabVBETjhJVHZrSVh1cEovOUFldGpyOE9QbWtXWVh1OXBaUT09Iiwic2lkIjoicnYxYTc0M2FjY2QtMTQ2YS00NjNjLTlkYTUtNjRlMjZjNTU4Iiwic3ViIjoiOGRiNDhiM2MtODJjMC00ZWE1LWJmNWItOGRjYzVkMGExMzU0IiwidXNlcl9pZCI6IjAifQ.FZ8FLpDBYDv-a5fnvagR47RV-BZuAhr8YJr_0ghgbR0",
+"sid": "rv1a743accd-146a-463c-9da5-64e26c558",
 "deviceId": "1fd70b9a-ba9b-4ec7-d3ef-5004d3e1dada",
-"csrfToken": "cgZIeFGL7ayG-9JqneHu3qFZ4BXLVfDBEOaFAlXA"
+"csrfToken": "FduREvvDUnd3-Yqri82Uen4802-gYq6v8a5R3UhI"
 }
