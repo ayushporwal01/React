@@ -105,9 +105,9 @@ export default function Home() {
                 className="block w-full h-full"
               >
                 {res?.info?.promoted ? (
-                  <RestaurantCard resData={res} />
-                ) : (
                   <RestaurantCardPromoted resData={res} />
+                ) : (
+                  <RestaurantCard resData={res} />
                 )}
               </Link>
             ))
