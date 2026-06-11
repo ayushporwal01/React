@@ -23,7 +23,7 @@ export default function SearchBar({ listOfRestaurant, setFilteredRestaurant }) {
           }
         }}
       />
-      <button className="px-4 py-2.5 border border-l-0 border-[#afafaf] rounded-sm rounded-l-none absolute right-0 bottom-0 top-0 cursor-pointer" onClick={searchFilter}>
+      <button aria-label="search" className="px-4 py-2.5 border border-l-0 border-[#afafaf] rounded-sm rounded-l-none absolute right-0 bottom-0 top-0 cursor-pointer" onClick={searchFilter}>
         <i className="fa-solid fa-magnifying-glass text-[#7b7574]"></i>
       </button>
     </div>
