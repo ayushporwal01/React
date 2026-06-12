@@ -8,17 +8,13 @@ import { BrowserRouter } from "react-router-dom";
 
 beforeEach(() => fetchMock(MOCK_DATA));
 
-  it("Should render Home Component with Search Button", async () => {
-    render(
-      <BrowserRouter>
-        <Home />
-      </BrowserRouter>,
-    );
+it("Should render Home Component with Search Button", async () => {
+  render(<Home />);
 
-    const searchBtn = screen.getByTestId("searchBtn");
+  const searchBtn = screen.getByTestId("searchBtn");
 
-    expect(searchBtn).toBeInTheDocument();
-  });
+  expect(searchBtn).toBeInTheDocument();
+});
 
 it("Should Search ResList for pizza text input", async () => {
   render(
