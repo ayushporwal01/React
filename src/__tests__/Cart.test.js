@@ -4,11 +4,11 @@ import { act } from "react";
 import fetchMock from "../mocks/fetchMock";
 import MOCK_DATA from "../mocks/mockResMenu.json";
 import { Provider } from "react-redux";
-import appStore from "../utils/appStore";
 import Header from "../components/Header";
 import { BrowserRouter } from "react-router-dom";
 import "@testing-library/jest-dom";
 import Cart from "../components/Cart";
+import { createTestStore } from "../utils/createTestStore";
 
 beforeEach(() => fetchMock(MOCK_DATA));
 
@@ -17,7 +17,7 @@ const setup = () => {
 
   render(
     <BrowserRouter>
-      <Provider store={appStore}>
+      <Provider store={store}>
         <Header />
         <RestaurantMenu />
         <Cart />
@@ -93,7 +93,7 @@ it("Should clear cart and show empty cart message", async () => {
 
   fireEvent.click(addBtn[0]);
 
-  fireEvent.click(addBtn[1]);;
+  fireEvent.click(addBtn[1]);
 
   const clearCartBtn = screen.getByRole("button", { name: "Clear Cart" });
 
