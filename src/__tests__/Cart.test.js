@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import RestaurantMenu from "../components/RestaurantMenu";
-import { act } from "react";
 import fetchMock from "../mocks/fetchMock";
 import MOCK_DATA from "../mocks/mockResMenu.json";
 import { Provider } from "react-redux";
@@ -26,16 +25,16 @@ const setup = () => {
   );
 };
 
-const openAccordion = () => {
+const openAccordion = async () => {
   const accordionHeader = await screen.findByText("Recommended (17)");
   fireEvent.click(accordionHeader);
-}
+};
 
 const addItemsToCart = () => {
   const addBtn = screen.getAllByRole("button", { name: "Add" });
   fireEvent.click(addBtn[0]);
   fireEvent.click(addBtn[1]);
-}
+};
 
 it("Should render all restaurant menu categories", async () => {
   setup();
@@ -47,16 +46,16 @@ it("Should render all restaurant menu categories", async () => {
 it("Should expand accordion and show menu items on click", async () => {
   setup();
 
-  openAccordion();
+  await openAccordion();
 
   const menuItems = await screen.findAllByTestId("menu-item");
 
   expect(menuItems).toHaveLength(17);
 });
-it("Should add item to cart when add button is clicked and update item count in ui", async () => {
+it("Should add items to cart and update cart count in UI", async () => {
   setup();
 
-  openAccordion();
+  await openAccordion();
 
   const menuItems = await screen.findAllByTestId("menu-item");
 
@@ -71,7 +70,7 @@ it("Should add item to cart when add button is clicked and update item count in 
 it("Should add items to cart and reflect those items on cart page", async () => {
   setup();
 
-  openAccordion();
+  await openAccordion();
 
   addItemsToCart();
 
@@ -82,15 +81,9 @@ it("Should add items to cart and reflect those items on cart page", async () => 
 it("Should clear cart and show empty cart message", async () => {
   setup();
 
-  const accordionHeader = await screen.findByText("Recommended (17)");
+  await openAccordion();
 
-  fireEvent.click(accordionHeader);
-
-  const addBtn = screen.getAllByRole("button", { name: "Add" });
-
-  fireEvent.click(addBtn[0]);
-
-  fireEvent.click(addBtn[1]);
+  addItemsToCart();
 
   const clearCartBtn = screen.getByRole("button", { name: "Clear Cart" });
 
