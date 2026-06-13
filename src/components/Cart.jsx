@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import Item from "./Item";
 import { clearCart } from "../utils/cartSlice";
+import { div } from "motion/react-client";
 
 export default function Cart() {
   const cartItems = useSelector((store) => store.cart.items);
@@ -16,18 +17,24 @@ export default function Cart() {
       <h1 className="text-2xl text-center font-bold">Cart</h1>
       <div className="w-6/12 mx-auto">
         {cartItems.map((item, index) => (
-          <Item index={index} item={item} />
+          <div key={index} data-testid={"cart-items"}>
+            <Item index={index} item={item} />
+          </div>
         ))}
       </div>
 
-      {(cartItems.length > 0) ? (
+      {cartItems.length > 0 ? (
         <button
           className="w-30 h-10 bg-black text-white text-xl rounded-md mb-10 cursor-pointer"
           onClick={handleClearCart}
         >
           Clear Cart
         </button>
-      ) : <p className="text-xl font-semibold mt-50 text-gray-500">Your cart looks empty, add some delicious food to your cart.</p>}
+      ) : (
+        <p className="text-xl font-semibold mt-50 text-gray-500">
+          Your cart looks empty, add some delicious food to your cart.
+        </p>
+      )}
     </div>
   );
 }
