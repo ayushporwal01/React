@@ -8,8 +8,8 @@ import { BrowserRouter } from "react-router-dom";
 
 beforeEach(() => fetchMock(MOCK_DATA));
 
-it("Should render Home Component with Search Button", async () => {
-  render(<Home />);
+it("Should render Home Component with Search Button", () => {
+  render(<Home />)
 
   const searchBtn = screen.getByTestId("searchBtn");
 
