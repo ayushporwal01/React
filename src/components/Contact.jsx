@@ -24,16 +24,14 @@ export default function Contact() {
     "Other",
   ];
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Form submitted successfully!");
-  };
-
   return (
     <div className="mt-10 flex flex-col items-center">
       <h1 className="text-3xl font-bold text-center">Contact Us</h1>
 
-      <form onSubmit={handleSubmit} className="flex flex-col items-center">
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="flex flex-col items-center"
+      >
         <div className={styles.formItems}>
           <label htmlFor="name" className="text-xl">
             Name
