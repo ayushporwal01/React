@@ -24,11 +24,16 @@ export default function Contact() {
     "Other",
   ];
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Form submitted successfully!");
+  };
+
   return (
     <div className="mt-10 flex flex-col items-center">
       <h1 className="text-3xl font-bold text-center">Contact Us</h1>
 
-      <form action="#" className="flex flex-col items-center">
+      <form onSubmit={handleSubmit} className="flex flex-col items-center">
         <div className={styles.formItems}>
           <label htmlFor="name" className="text-xl">
             Name
@@ -38,6 +43,7 @@ export default function Contact() {
             id="name"
             placeholder="Enter your name"
             className={styles.formInput}
+            required
           />
         </div>
 
@@ -50,6 +56,7 @@ export default function Contact() {
             id="email"
             placeholder="Enter your email"
             className={styles.formInput}
+            required
           />
         </div>
 
