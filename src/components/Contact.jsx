@@ -43,7 +43,6 @@ export default function Contact() {
             id="name"
             placeholder="Enter your name"
             className={styles.formInput}
-            required
           />
         </div>
 
@@ -56,7 +55,6 @@ export default function Contact() {
             id="email"
             placeholder="Enter your email"
             className={styles.formInput}
-            required
           />
         </div>
 
